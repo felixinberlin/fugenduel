@@ -1,109 +1,65 @@
 ================================================================================
 FUGENDUEL — BILD-PROMPTS ZUM KOPIEREN (MIDJOURNEY, FLUX, STABLE DIFFUSION, DALL-E)
-Format: 2:3 (Spielkarten-Hochformat)
-Alle Werte sind 100% konsistent mit 01-werte-tabellen.md und echten Datenbanken.
+Format: --ar 2:3 (Spielkarten-Hochformat)
+Aufgeteilt in zwei getrennte Abschnitte:
+  • TEIL A: LEVEL 1 (Keimlinge & Jungpflanzen für die Kartenvorderseite)
+  • TEIL B: LEVEL 2 (Ausgewachsene Blüte & Superkraft für die Kartenrückseite)
 ================================================================================
 
 
---------------------------------------------------------------------------------
-01. ZIMBELKRAUT (Cymbalaria muralis)
-Werte Lvl 1: Licht: 2 | Wasser: 2 | Wurzel: 1 | Triebe: 1
-Werte Lvl 2: Licht: 2 | Wasser: 2 | Wurzel: 2 | Triebe: 2 | Superkraft: Mauer-Rückzug
---------------------------------------------------------------------------------
+################################################################################
+TEIL A: ALLE 8 LEVEL-1-KARTEN (VORDERSEITE: KEIMLINGE & PIONIERE)
+################################################################################
 
-[PROMPT - LEVEL 1 (Junger Kriechtrieb)]:
+--- 01. ZIMBELKRAUT (Cymbalaria muralis) — LEVEL 1 ---
 Macro photography of a tiny young Ivy-Leaved Toadflax (Cymbalaria muralis) seedling emerging from a narrow vertical mortar crack between weathered red bricks of a gothic church wall. Small, delicate kidney-shaped leaves with distinct rounded lobes and reddish-purple undersides. Slender translucent purplish tendril pushing horizontally along the mortar line searching for an anchor point. Early spring morning dew drops on the leaves, dramatic side lighting, authentic urban micro-habitat, hyper-detailed masonry texture, cinematic natural depth of field --ar 2:3 --v 6.1
 
-[PROMPT - LEVEL 2 (Ausgewachsene Blüte & Mauer-Rückzug)]:
-Vibrant macro shot of an established, blooming Ivy-Leaved Toadflax (Cymbalaria muralis) densely cascading across an ancient red brick church wall. Multiple trailing purple stems rooting firmly into mortar joints. Miniature snapdragon-like lilac and yellow flowers in full bloom. Lower seed stalks actively bending backwards, snaking into a dark deep mortar crevice away from the sun (negative phototropism). Golden afternoon sunlight grazing the brick surface, rich botanical realism, sharp macro focus, collectible card aesthetic --ar 2:3 --v 6.1
-
-
---------------------------------------------------------------------------------
-02. MAUERRAUTE (Asplenium ruta-muraria)
-Werte Lvl 1: Licht: 3 | Wasser: 1 | Wurzel: 1 | Triebe: 1 (Braucht Moosbett)
-Werte Lvl 2: Licht: 3 | Wasser: 1 | Wurzel: 1 | Triebe: 2 | Superkraft: Kalk-Panzer
---------------------------------------------------------------------------------
-
-[PROMPT - LEVEL 1 (Jungfarn im Moosbett)]:
+--- 02. MAUERRAUTE (Asplenium ruta-muraria) — LEVEL 1 ---
 Extreme macro close-up of a juvenile Wall-Rue Fern (Asplenium ruta-muraria) nestled within a velvety green patch of cushion moss on an ancient limestone wall. A couple of tiny, leathery, fan-shaped rhombic green fronds barely 1 cm high, unfurling from microscopic dark rootlets anchored in crumbling lime mortar. Bright morning sunlight hitting the mineral dust, crystalline mortar grains visible, moist micro-climate, scientific botanical illustration realism, crisp focus --ar 2:3 --v 6.1
 
-[PROMPT - LEVEL 2 (Ausgewachsener Horst mit Sporen)]:
-Dramatic macro portrait of a hardy, mature Wall-Rue Fern (Asplenium ruta-muraria) growing stubbornly from a bone-dry mortar joint on a sun-drenched gothic church ruin. Dense tufted rosette of thick, dull-green leathery fronds with diamond-shaped pinnules. Underside of several fronds reveals dense linear brown spore cases (sori). Deep limestone wedge roots cemented firmly into the brickwork. Blazing summer sun casting sharp shadows, ancient weathered brick texture, resilient urban lithophyte, photorealistic depth --ar 2:3 --v 6.1
-
-
---------------------------------------------------------------------------------
-03. SCHÖLLKRAUT (Chelidonium majus)
-Werte Lvl 1: Licht: 2 | Wasser: 2 | Wurzel: 2 | Triebe: 1 (Giftmilch)
-Werte Lvl 2: Licht: 2 | Wasser: 2 | Wurzel: 3 | Triebe: 3 | Superkraft: Ameisen-Brot
---------------------------------------------------------------------------------
-
-[PROMPT - LEVEL 1 (Jungschössling mit oranger Milch)]:
+--- 03. SCHÖLLKRAUT (Chelidonium majus) — LEVEL 1 ---
 Macro shot of a vigorous young Greater Celandine (Chelidonium majus) shoot pushing through a fractured brick cavity at the base of a church buttress. Distinctive deeply lobed, wavy blue-green leaves covered in soft fine hairs. One lower leaf stem is broken, oozing an iconic, intense droplet of opaque bright orange latex sap. Soft filtered daylight, moist urban grit, photorealistic botanical texture, sharp depth of field --ar 2:3 --v 6.1
 
-[PROMPT - LEVEL 2 (Blühende N-Prachtstaude mit Ameisen)]:
-Majestic macro view of a massive, fully established Greater Celandine (Chelidonium majus) plant flourishing beneath a church stone corbel covered in pigeon guano. Bright four-petaled golden-yellow flowers blooming alongside slender upright green seed pods. At the base, black pavement ants (Lasius niger) are busily carrying glossy black seeds adorned with fleshy white elaiosomes down into a deep mortar crevice. Thick woody root crown wedged deep into the brickwork, vibrant natural lighting, rich ecological storytelling --ar 2:3 --v 6.1
-
-
---------------------------------------------------------------------------------
-04. BEHAARTES SCHAUMKRAUT (Cardamine hirsuta)
-Werte Lvl 1: Licht: 2 | Wasser: 2 | Wurzel: 1 | Triebe: 1 (Pilz gesperrt)
-Werte Lvl 2: Licht: 2 | Wasser: 2 | Wurzel: 1 | Triebe: 1 | Superkraft: Schotenmörser
---------------------------------------------------------------------------------
-
-[PROMPT - LEVEL 1 (Frühjahrs-Rosette)]:
+--- 04. BEHAARTES SCHAUMKRAUT (Cardamine hirsuta) — LEVEL 1 ---
 Macro photograph of a delicate basal leaf rosette of Hairy Bittercress (Cardamine hirsuta) flat against a damp concrete crevice in early March. Rounded pinnate leaflets with scattered tiny bristly white hairs, glistening with frosty morning condensation. Tender central flower stalk just starting to rise with miniature white flower buds. Bleak cold urban environment, gritty sand grains, pin-sharp focus, natural soft lighting --ar 2:3 --v 6.1
 
-[PROMPT - LEVEL 2 (Explodierende Schoten)]:
-High-speed action macro photography of a mature Hairy Bittercress (Cardamine hirsuta) at the precise moment of explosive seed dispersal. Upright slender siliques bursting open: the two outer valves coiling back violently like coiled springs, launching tiny golden seeds airborne into the light at high velocity. Tiny white 4-petaled flowers still crowning the top. Sunny afternoon backlight catching airborne seeds and dynamic motion blur, razor-sharp focus on the plant, cinematic card artwork --ar 2:3 --v 6.1
-
-
---------------------------------------------------------------------------------
-05. BREITWEGERICH (Plantago major)
-Werte Lvl 1: Licht: 3 | Wasser: 2 | Wurzel: 1 | Triebe: 1 (Tritt-Immun)
-Werte Lvl 2: Licht: 3 | Wasser: 2 | Wurzel: 2 | Triebe: 2 | Superkraft: Panzer-Gummiblatt
---------------------------------------------------------------------------------
-
-[PROMPT - LEVEL 1 (Flache Trittrosette)]:
+--- 05. BREITWEGERICH (Plantago major) — LEVEL 1 ---
 Macro eye-level angle of a tough young Greater Plantain (Plantago major) seedling pressed entirely flat inside an asphalt joint near a pedestrian curb. Broad, leathery oval leaves with thick, parallel prominent veins lying flush against the dark asphalt. A heavy boot tread impression visible in the street dust directly over half the leaf, but the elastic rubbery leaf bounces back undamaged. Harsh urban ground level perspective, authentic grit, crisp natural textures --ar 2:3 --v 6.1
 
-[PROMPT - LEVEL 2 (Horst mit Ähren & Moos-Ersticker)]:
-Overhead macro shot of a fully grown, indestructible Greater Plantain (Plantago major) thriving on a high-traffic stone pavement edge. Massive, tough rosette of leathery ribbed leaves spreading outward, completely covering and smothering an underlying moss patch in heavy shade. Several tall, rigid cylindrical rat-tail flower spikes standing proudly upright with tiny pale purple anthers shedding pollen. Warm urban sunset light, rich textural contrast between rubbery leaves and rough pavers --ar 2:3 --v 6.1
-
-
---------------------------------------------------------------------------------
-06. SOMMER-PORTULAK (Portulaca oleracea)
-Werte Lvl 1: Licht: 3 | Wasser: 1 | Wurzel: 1 | Triebe: 1 (Dürrespeicher)
-Werte Lvl 2: Licht: 3 | Wasser: 1 | Wurzel: 2 | Triebe: 3 | Superkraft: Gluthitze-Turbo
---------------------------------------------------------------------------------
-
-[PROMPT - LEVEL 1 (Sukkulenten-Keimling)]:
+--- 06. SOMMER-PORTULAK (Portulaca oleracea) — LEVEL 1 ---
 Macro shot of a tiny, plump Common Purslane (Portulaca oleracea) succulent seedling emerging from a sun-baked tar crack. Cylindrical, fleshy reddish-pink stems hugging the asphalt surface with smooth, teardrop-shaped emerald-green succulent leaves glowing in the midday heat. Shimmering heat haze effect above the blistering asphalt, crisp focal plane, saturated natural colors, collectible trading card visual style --ar 2:3 --v 6.1
 
-[PROMPT - LEVEL 2 (Wuchernder C4-Teppich mit gelben Blüten)]:
-Lush macro photograph of an sprawling, thick carpet of Common Purslane (Portulaca oleracea) covering a scorched brick pavement seam under 40°C summer heat. Rich, succulent reddish-purple creeping stems spreading radially in all directions. Bright golden-yellow 5-petaled flowers open wide under the blazing sun, surrounded by glossy fleshy succulent leaves. High-contrast midday lighting, intense heat-resistant vitality, hyper-realistic plant anatomy --ar 2:3 --v 6.1
-
-
---------------------------------------------------------------------------------
-07. EINJÄHRIGES RISPENGRAS (Poa annua)
-Werte Lvl 1: Licht: 2 | Wasser: 3 | Wurzel: 1 | Triebe: 1 (Mooskeimer)
-Werte Lvl 2: Licht: 2 | Wasser: 3 | Wurzel: 1 | Triebe: 2 | Superkraft: 365-Tage-Blüte
---------------------------------------------------------------------------------
-
-[PROMPT - LEVEL 1 (Zarter Halmbüschel im Moos)]:
+--- 07. EINJÄHRIGES RISPENGRAS (Poa annua) — LEVEL 1 ---
 Macro photograph of a fresh, bright green tuft of Annual Meadow Grass (Poa annua) seedlings sprouting directly out of a damp cushion of silvery moss between two cobblestones. Extremely fine, soft light-green blades with characteristic boat-shaped tips, beaded with tiny dew droplets. Pale morning sunlight filtering through urban mist, delicate and hopeful pioneer vegetation, stunning natural clarity, pin-sharp macro lens --ar 2:3 --v 6.1
 
-[PROMPT - LEVEL 2 (Dichter Graspanzer im Winter)]:
-Crisp macro portrait of an established, dense tussock of Annual Meadow Grass (Poa annua) thriving in a stone curb fissure during a light winter snowfall. Delicate pyramidal open panicles swaying, carrying miniature greenish-white spikelets actively flowering despite frost crystals on the stone. Fine fibrous roots visibly anchoring beneath the paving, authentic winter urban biodiversity, cold ambient light with warm highlight accents --ar 2:3 --v 6.1
-
-
---------------------------------------------------------------------------------
-08. SILBER-BIRNMOOS (Bryum argenteum)
-Werte Lvl 1: Licht: 1-3 | Wasser: 1 | Wurzel: 0 | Triebe: 1
-Werte Lvl 2: Licht: 1-3 | Wasser: 1 | Wurzel: 0 | Triebe: 2 | Superkraft: Auferstehung
---------------------------------------------------------------------------------
-
-[PROMPT - LEVEL 1 (Silberner Mikro-Keimteppich)]:
+--- 08. SILBER-BIRNMOOS (Bryum argenteum) — LEVEL 1 ---
 Extreme microscope-level macro photography of a pioneering colony of Silver Moss (Bryum argenteum) forming a miniature crust inside a razor-thin concrete seam. Tiny rounded shoots under 4 mm tall, leaf tips completely transparent and silvery-white (hyaline cells) gleaming like metallic foil in the sun. Raw concrete grain and quartz sand crystals surrounding the colony, stark contrast between mineral rock and living velvet, scientific documentary realism --ar 2:3 --v 6.1
 
-[PROMPT - LEVEL 2 (Silberpolster mit Sporenkapseln)]:
+
+################################################################################
+TEIL B: ALLE 8 LEVEL-2-KARTEN (RÜCKSEITE: BLÜTE, REIFE & SUPERKRAFT)
+################################################################################
+
+--- 01. ZIMBELKRAUT (Cymbalaria muralis) — LEVEL 2 ---
+Vibrant macro shot of an established, blooming Ivy-Leaved Toadflax (Cymbalaria muralis) densely cascading across an ancient red brick church wall. Multiple trailing purple stems rooting firmly into mortar joints. Miniature snapdragon-like lilac and yellow flowers in full bloom. Lower seed stalks actively bending backwards, snaking into a dark deep mortar crevice away from the sun (negative phototropism). Golden afternoon sunlight grazing the brick surface, rich botanical realism, sharp macro focus, collectible card aesthetic --ar 2:3 --v 6.1
+
+--- 02. MAUERRAUTE (Asplenium ruta-muraria) — LEVEL 2 ---
+Dramatic macro portrait of a hardy, mature Wall-Rue Fern (Asplenium ruta-muraria) growing stubbornly from a bone-dry mortar joint on a sun-drenched gothic church ruin. Dense tufted rosette of thick, dull-green leathery fronds with diamond-shaped pinnules. Underside of several fronds reveals dense linear brown spore cases (sori). Deep limestone wedge roots cemented firmly into the brickwork. Blazing summer sun casting sharp shadows, ancient weathered brick texture, resilient urban lithophyte, photorealistic depth --ar 2:3 --v 6.1
+
+--- 03. SCHÖLLKRAUT (Chelidonium majus) — LEVEL 2 ---
+Majestic macro view of a massive, fully established Greater Celandine (Chelidonium majus) plant flourishing beneath a church stone corbel covered in pigeon guano. Bright four-petaled golden-yellow flowers blooming alongside slender upright green seed pods. At the base, black pavement ants (Lasius niger) are busily carrying glossy black seeds adorned with fleshy white elaiosomes down into a deep mortar crevice. Thick woody root crown wedged deep into the brickwork, vibrant natural lighting, rich ecological storytelling --ar 2:3 --v 6.1
+
+--- 04. BEHAARTES SCHAUMKRAUT (Cardamine hirsuta) — LEVEL 2 ---
+High-speed action macro photography of a mature Hairy Bittercress (Cardamine hirsuta) at the precise moment of explosive seed dispersal. Upright slender siliques bursting open: the two outer valves coiling back violently like coiled springs, launching tiny golden seeds airborne into the light at high velocity. Tiny white 4-petaled flowers still crowning the top. Sunny afternoon backlight catching airborne seeds and dynamic motion blur, razor-sharp focus on the plant, cinematic card artwork --ar 2:3 --v 6.1
+
+--- 05. BREITWEGERICH (Plantago major) — LEVEL 2 ---
+Overhead macro shot of a fully grown, indestructible Greater Plantain (Plantago major) thriving on a high-traffic stone pavement edge. Massive, tough rosette of leathery ribbed leaves spreading outward, completely covering and smothering an underlying moss patch in heavy shade. Several tall, rigid cylindrical rat-tail flower spikes standing proudly upright with tiny pale purple anthers shedding pollen. Warm urban sunset light, rich textural contrast between rubbery leaves and rough pavers --ar 2:3 --v 6.1
+
+--- 06. SOMMER-PORTULAK (Portulaca oleracea) — LEVEL 2 ---
+Lush macro photograph of an sprawling, thick carpet of Common Purslane (Portulaca oleracea) covering a scorched brick pavement seam under 40°C summer heat. Rich, succulent reddish-purple creeping stems spreading radially in all directions. Bright golden-yellow 5-petaled flowers open wide under the blazing sun, surrounded by glossy fleshy succulent leaves. High-contrast midday lighting, intense heat-resistant vitality, hyper-realistic plant anatomy --ar 2:3 --v 6.1
+
+--- 07. EINJÄHRIGES RISPENGRAS (Poa annua) — LEVEL 2 ---
+Crisp macro portrait of an established, dense tussock of Annual Meadow Grass (Poa annua) thriving in a stone curb fissure during a light winter snowfall. Delicate pyramidal open panicles swaying, carrying miniature greenish-white spikelets actively flowering despite frost crystals on the stone. Fine fibrous roots visibly anchoring beneath the paving, authentic winter urban biodiversity, cold ambient light with warm highlight accents --ar 2:3 --v 6.1
+
+--- 08. SILBER-BIRNMOOS (Bryum argenteum) — LEVEL 2 ---
 Breathtaking macro view of a mature, dense cushion of Silver Moss (Bryum argenteum) flourishing in full sunlight on an old church wall cornice. Metallic silver-green velvety dome reflecting harsh sunlight like a solar mirror. Slender reddish setae arching upward, each bearing a nodding, pear-shaped brown spore capsule ready to release spores. A single glistening water droplet resting on the hydrophobic silver surface, award-winning macro nature photography, photorealistic card art --ar 2:3 --v 6.1
