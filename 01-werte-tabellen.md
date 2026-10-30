@@ -64,17 +64,17 @@ Das Moos ist ein unregelmäßiges grünes Plättchen, das direkt auf einen belie
 
 ---
 
-## 3. Die Werte der Pflanzenkarten
+## 3. Die Werte der Pflanzenkarten (Inklusive Kiez-Apotheke & Küche)
 
-Jede Pflanzenkarte trägt exakt dieselben Symbole wie das Brett.
+Jede Pflanzenkarte trägt dieselben Kernsymbole plus ihre reale Heil- oder Nutzkraft.
 
-| Pflanze | ☀️ Mag Licht | 💧 Braucht Wasser | 🪴 Hat Wurzel | 🍄 Pilz-Partner? | Echte botanische Superkraft für Kinder |
-|---|:---:|:---:|:---:|:---:|---|
-| **Mauerraute**<br>*(Asplenium ruta-muraria)* | `3` | `1` | `1` | ✅ Ja | 🛡️ **Kalk-Panzer:** Erleidet niemals Dürreschaden; braucht zwingend ein Moosbett zum Keimen! |
-| **Zimbelkraut**<br>*(Cymbalaria muralis)* | `2` | `2` | `2` | ✅ Ja | 🪵 **Kletter-Meister:** Darf bis zu 3 Wurzelstreifen gleichzeitig legen; versteckt Samen im Stein. |
-| **Schöllkraut**<br>*(Chelidonium majus)* | `2` | `2` | `3` | ✅ Ja *(Super-Hub)* | 🐜 **Ameisen-Freund:** Bildet orangerote Giftmilch und füttert Ameisen für Sofort-Transport. |
-| **Behaartes Schaumkraut**<br>*(Cardamine hirsuta)* | `2` | `2` | `1` | 🚫 **Gesperrt!**<br>*(Senföle)* | 🚀 **Schotenmörser:** Schießt Samen bis zu 2 Felder weit durch die Luft (braucht keine Wurzelverbindung). |
-| **Breitwegerich**<br>*(Plantago major)* | `3` | `2` | `2` | ✅ Ja | 👟 **Gummiblatt:** Immun gegen Trittdruck; erstickt Moos, wenn er direkt darauf wächst. |
-| **Sommer-Portulak**<br>*(Portulaca oleracea)* | `3` | `1` | `1` | 😐 Selten | 🔥 **C4-Turbo:** Wächst im Sommer umso schneller, je heißer der Backstein brennt! |
-| **Einjähriges Rispengras**<br>*(Poa annua)* | `2` | `3` | `1` | ✅ Ja | 🌾 **Moos-Rasierer:** Wächst blitzschnell auf feuchtem Moos an; blüht das gesamte Jahr hindurch. |
-| **Silber-Birnmoos**<br>*(Bryum argenteum)* | `1–3` | `1` | `0` *(Rhizoide)* | 😐 Eigenständig | ⚡ **Auferstehung (Scheintod):** Trocknet zu Staub ein; rehydriert bei 1 Wassertropfen in 20 Minuten! |
+| Pflanze | ☀️ Licht | 💧 Wasser | 🪴 Wurzel | 🍄 Pilz? | Botanische Superkraft | 💊 Kiez-Apotheke & Wildküche |
+|---|:---:|:---:|:---:|:---:|---|---|
+| **Mauerraute**<br>*(Asplenium ruta-muraria)* | `3` | `1` | `1` | ✅ Ja | 🛡️ **Kalk-Panzer:** 0 Dürreschaden; braucht Moosbett zum Keimen! | 💊 Historischer Hustentee bei Lungenleiden. |
+| **Zimbelkraut**<br>*(Cymbalaria muralis)* | `2` | `2` | `2` | ✅ Ja | 🪵 **Kletter-Meister:** Legt bis zu 3 Wurzelstreifen; Mauer-Rückzug. | 🥗 Essbar (pfeffrig wie Kresse); Wundheilsaft. |
+| **Schöllkraut**<br>*(Chelidonium majus)* | `2` | `2` | `3` | ✅ Ja | 🐜 **Ameisen-Freund:** Lockt Ameisen an; teilt Stickstoff. | 💊 **Warzenkraut:** Oranger Saft ätzt Warzen weg *(giftig!)*. |
+| **Behaartes Schaumkraut**<br>*(Cardamine hirsuta)* | `2` | `2` | `1` | 🚫 **Nein!** | 🚀 **Schotenmörser:** Schießt Samen 2 Felder weit durch die Luft. | 🥗 **Winterkresse:** Scharf wie Wasabi, Vitamin-C-Bombe! |
+| **Breitwegerich**<br>*(Plantago major)* | `3` | `2` | `2` | ✅ Ja | 👟 **Gummiblatt:** Tritt-immun; erstickt Moos bei Überdeckung. | 💊 **Grünes Pflaster:** Heilt Blasen, Stiche und Schnitte sofort. |
+| **Sommer-Portulak**<br>*(Portulaca oleracea)* | `3` | `1` | `1` | 😐 Selten | 🔥 **C4-Turbo:** Verdoppelt Wachstum im heißesten Sommer! | 🥗 **Superfood:** Knackig-salziger Salat mit viel Omega-3. |
+| **Einjähriges Rispengras**<br>*(Poa annua)* | `2` | `3` | `1` | ✅ Ja | 🌾 **365-Tage-Blüte:** Blüht ganzjährig; keimt rasant im Moos. | 🕊️ Wichtigstes Vogelfutter für Stadtspatzen im Winter. |
+| **Silber-Birnmoos**<br>*(Bryum argenteum)* | `1–3` | `1` | `0` | 😐 Nein | ⚡ **Auferstehung:** Scheintod bei Dürre; Albedo-Hitzespiegel. | 💊 Historischer antiseptischer Wundverband. |
