@@ -1,121 +1,102 @@
-# Der Pflanzen-Katalog: Die 8 Pioniere
+# Fugenduel — Pflanzen in zwei Leveln
 
-Alle Pflanzen basieren auf echten botanischen Datenbanken (Pladias, UNDERPLOT, Kew Gardens), übersetzt in die kinderfreundliche Skala von **1 bis 3** — jetzt inklusive **Kiez-Apotheke & Wildküche**!
+Stand: 30.10.2026. Gemeinsame Quelle: [data/pflanzen.json](data/pflanzen.json). Neu erzeugen: `python3 scripts/render-pflanzen.py`.
 
----
+Die beiden Seiten zeigen junge und etablierte Pflanzen. Botanische Artwerte bleiben gleich; Wurzelraum und Triebe sind vorgeschlagene Spielwerte, keine gemessenen Entwicklungsstufen. Licht und Feuchte werden für die sieben Gefäßpflanzen aus **Pladias** in drei Kategorien zusammengefasst: **1–3 → 1, 4–6 → 2, 7–9 → 3**. Diese Einteilung ist eine Designentscheidung. Die Pflanzenwerte sind Standortpräferenzen; passende Felder und zulässige Toleranzen vereinbaren die Kinder. Wurzelraum ist der Platzbedarf im Spiel und wird nicht aus Metern errechnet. Beim Moos sind Licht 1–3 und Wasser 1 vorläufige Spielwerte ohne hier verifizierte Zeigerwerte. Fehlende Messwerte bleiben `k. A.`; Wurzelraum 0 bezeichnet Rhizoide.
 
-### 1. Mauerraute (*Asplenium ruta-muraria*)
-* **Deutscher Name:** Mauerraute / Mauerfarn
-* **Wissenschaftlicher Name:** *Asplenium ruta-muraria*
-* **Werte:** ☀️ Licht: `3` · 💧 Wasser: `1` · 🪴 Wurzel: `1`
-* **Netzwerk-Rolle:**
-  * 🪵 Wurzel: `1` (schlägt harte Keilwurzeln, aber keine Kriechspuren).
-  * 🍄 Pilz: `Ja` (Endomykorrhiza).
-  * 🟩 Moos: **Lebenswichtig!** Braucht das feuchte Moospolster, um als Vorkeim (Prothallium) zu überleben.
-* **⚡ Superkraft:** **„Kalk-Panzer & Scheintod“**  
-  *Scheidet Wurzelsäuren aus, die Kalk anlösen. Bei extremer Sommerhitze rollen sich die Wedel zusammen und überstehen Monate ohne Wasser.*
-* **💊 Kiez-Apotheke & Nutzung:**  
-  *Historischer Hustentee bei Bronchitis und Keuchhusten. Reines Heilkraut auf alten Burgmauern.*
+| Pflanze | Licht I / II | Wasser I / II | Wurzelraum I / II | Triebe I / II |
+|---|---|---|---|---|
+| Zimbelkraut | 2 / 2 | 2 / 2 | 1 / 2 | 1 / 2 |
+| Mauerraute | 3 / 3 | 1 / 1 | 1 / 1 | 1 / 2 |
+| Schöllkraut | 2 / 2 | 2 / 2 | 2 / 3 | 1 / 3 |
+| Behaartes Schaumkraut | 2 / 2 | 2 / 2 | 1 / 1 | 1 / 1 |
+| Breitwegerich | 3 / 3 | 2 / 2 | 1 / 2 | 1 / 2 |
+| Sommer-Portulak | 3 / 3 | 2 / 2 | 1 / 1 | 1 / 3 |
+| Einjähriges Rispengras | 3 / 3 | 2 / 2 | 1 / 1 | 1 / 2 |
+| Silber-Birnmoos | 1–3 / 1–3 | 1 / 1 | 0 / 0 | 1 / 2 |
 
----
+## Botanische Referenzen und Spielverbindungen
 
-### 2. Zimbelkraut (*Cymbalaria muralis*)
-* **Deutscher Name:** Mauer-Zimbelkraut
-* **Wissenschaftlicher Name:** *Cymbalaria muralis*
-* **Werte:** ☀️ Licht: `2` · 💧 Wasser: `2` · 🪴 Wurzel: `2`
-* **Netzwerk-Rolle:**
-  * 🪵 Wurzel: `3` (Der unangefochtene Kletter-König! Legt bis zu 3 Streifen gleichzeitig).
-  * 🍄 Pilz: `Ja`.
-  * 🟩 Moos: Verankert seine Kriechtriebe sehr gerne in Moospolstern.
-* **⚡ Superkraft:** **„Der Mauer-Rückzug“**  
-  *Nach der Bestäubung wendet sich der Stängel vom Licht ab und schiebt die Samenkapsel aktiv in die tiefste, dunkelste Mauerspalte zurück, wo kein Besen hinkommt.*
-* **🥗 Kiez-Küche & Heilung:**  
-  *Die zarten Blättchen sind essbar und schmecken pfeffrig-säuerlich wie Brunnenkresse (reich an Vitamin C). Zerquetscht half der Saft früher bei Wundheilung.*
+### Zimbelkraut — *Cymbalaria muralis*
 
----
+Botanik (Artwerte): L 6 | F 4 | N 5; Höhe 0.1–0.4 m; CSR % 37.3 / 0 / 62.7; maximale Wurzeltiefe k. A. m; Wurzelradius k. A. m; Knospenbank 15.
 
-### 3. Schöllkraut (*Chelidonium majus*)
-* **Deutscher Name:** Großes Schöllkraut / Warzenkraut
-* **Wissenschaftlicher Name:** *Chelidonium majus*
-* **Werte:** ☀️ Licht: `2` · 💧 Wasser: `2` · 🪴 Wurzel: `3` (Riesige Pfahlwurzel)
-* **Netzwerk-Rolle:**
-  * 🪵 Wurzel: `2` (dicke, kräftige Trassen).
-  * 🍄 Pilz: **Super-Hub!** Saugt Stickstoff aus Taubenkot und teilt ihn über Pilzkabel mit Nachbarpflanzen.
-  * 🟩 Moos: Schützt seine Keimlinge im Frühling.
-* **⚡ Superkraft:** **„Ameisen-Brot & Giftmilch“**  
-  *Die Samen haben ein zuckerreiches Fettkörperchen (Elaiosom), das Ameisen magisch anzieht. Der orangerote Milchsaft verätzt Schnecken und Fraßinsekten.*
-* **💊 Kiez-Apotheke (Vorsicht giftig!):**  
-  *Das berühmteste Warzenmittel der Natur: Der frische orange Milchsaft wird direkt auf Warzen getupft. Nicht schlucken!*
+Quelle: [Artprofil](https://pladias.cz/en/taxon/data/Cymbalaria%20muralis). Untergrund: [UNDERPLOT v39](https://doi.org/10.25829/idiv.3610-56acy9); Originalzeile im [Datenauszug](data/underplot-v39-auszug.csv).
 
----
+Phänologie im tschechischen Pladias-Datensatz: May–September (Artspanne, keine Garantie für jede Pflanze).
 
-### 4. Behaartes Schaumkraut (*Cardamine hirsuta*)
-* **Deutscher Name:** Behaartes Schaumkraut / Spring-Schaumkraut
-* **Wissenschaftlicher Name:** *Cardamine hirsuta*
-* **Werte:** ☀️ Licht: `2` · 💧 Wasser: `2` · 🪴 Wurzel: `1`
-* **Netzwerk-Rolle:**
-  * 🪵 Wurzel: `0` (winzige Einjahres-Faserwurzel).
-  * 🍄 Pilz: **STRIKT GESPERRT!** Als Kreuzblütler sondert es pilztötende Senföle ab.
-  * 🟩 Moos: Neutral.
-* **⚡ Superkraft:** **„Der Schotenmörser“**  
-  *Braucht keine Wurzel-Verbindungen! Wenn die reifen Schoten berührt werden, explodieren sie mit 10 m/s und katapultieren Samen bis zu 2 Felder weit durch die Luft.*
-* **🥗 Kiez-Küche (Winterkresse):**  
-  *Ein köstliches Wildgemüse! Schmeckt knackig-scharf wie Wasabi oder Rucola. Kann schon im Februar geerntet und aufs Butterbrot gelegt werden.*
+Spielentwurf: Pilzverbindung als Test freigegeben; keine verifizierte Mykorrhiza-Aussage. Kriechtrassen I/II: 1/3 als Sonderfähigkeit; keine Wurzeltiefen. UNDERPLOT führt die Art als nicht klonal, daher ist das Ausbreitungsnetz eine Spielabstraktion. Eine Verbindung wird unabhängig von der Pflanze umgedreht; Pflanzen-Level II bedeutet weder verholzt noch frostfest.
 
----
+### Mauerraute — *Asplenium ruta-muraria*
 
-### 5. Breitwegerich (*Plantago major*)
-* **Deutscher Name:** Breitwegerich / Wiesenpflaster
-* **Wissenschaftlicher Name:** *Plantago major*
-* **Werte:** ☀️ Licht: `3` · 💧 Wasser: `2` · 🪴 Wurzel: `2`
-* **Netzwerk-Rolle:**
-  * 🪵 Wurzel: `2` (fester, kompakter Wurzelstock).
-  * 🍄 Pilz: `Ja`.
-  * 🟩 Moos: **Moos-Ersticker!** Die flachen Blätter nehmen dem Moos das Licht weg.
-* **⚡ Superkraft:** **„Das Panzer-Gummiblatt“**  
-  *Besitzt elastische Längsrippen. Menschen und Fahrräder können über ihn hinwegtrampeln — er federt elastisch zurück und nimmt 0 Trittschaden.*
-* **💊 Kiez-Apotheke (Erste-Hilfe-Pflaster):**  
-  *Das „grüne Pflaster“: Ein sauberes Blatt zwischen den Fingern zerquetschen, bis Saft austritt, und auf Mückenstiche, Brennnessel-Verbrennungen oder Wanderblasen legen. Kühlt und desinfiziert sofort (Aucubin).*
+Botanik (Artwerte): L 8 | F 3 | N 3; Höhe 0.05–0.2 m; CSR % 12.6 / 54.6 / 32.8; maximale Wurzeltiefe k. A. m; Wurzelradius k. A. m; Knospenbank 10.
 
----
+Quelle: [Artprofil](https://pladias.cz/en/taxon/data/Asplenium%20ruta-muraria). Untergrund: [UNDERPLOT v39](https://doi.org/10.25829/idiv.3610-56acy9); Originalzeile im [Datenauszug](data/underplot-v39-auszug.csv).
 
-### 6. Sommer-Portulak (*Portulaca oleracea*)
-* **Deutscher Name:** Sommer-Portulak / Bürzelkraut
-* **Wissenschaftlicher Name:** *Portulaca oleracea*
-* **Werte:** ☀️ Licht: `3` · 💧 Wasser: `1` · 🪴 Wurzel: `1`
-* **Netzwerk-Rolle:**
-  * 🪵 Wurzel: `1` (flache, saftige Triebe).
-  * 🍄 Pilz: Selten.
-  * 🟩 Moos: Neutral.
-* **⚡ Superkraft:** **„Der C4-Gluthitze-Turbo“**  
-  *Während andere Pflanzen bei 40 °C auf glühendem Asphalt verbrennen, schaltet Portulak seine C4-Turbosynthese ein und verdoppelt sein Wachstum im Hochsommer!*
-* **🥗 Kiez-Küche (Mediterranes Superfood):**  
-  *Ein weltweites Feinschmecker-Gemüse! Die knackigen, saftigen Blätter schmecken nussig-säuerlich. Enthält mehr gesunde Omega-3-Fettsäuren als jedes andere Blattgemüse der Welt.*
+Ein Farn bildet Sporen. Das im Quellfeld „Flowering period“ genannte Zeitfenster darf nicht als Blüte eines Farns beschriftet werden. Feuchte Keimbedingungen sind kein Beleg für zwingende Moosbindung oder Dürre-Immunität.
 
----
+Spielentwurf: Pilzverbindung als Test freigegeben; keine verifizierte Mykorrhiza-Aussage. Eine Verbindung wird unabhängig von der Pflanze umgedreht; Pflanzen-Level II bedeutet weder verholzt noch frostfest.
 
-### 7. Einjähriges Rispengras (*Poa annua*)
-* **Deutscher Name:** Einjähriges Rispengras
-* **Wissenschaftlicher Name:** *Poa annua*
-* **Werte:** ☀️ Licht: `2` · 💧 Wasser: `3` · 🪴 Wurzel: `1`
-* **Netzwerk-Rolle:**
-  * 🪵 Wurzel: `1` (feines Faserwurzelnetz).
-  * 🍄 Pilz: `Ja` (hervorragender Mykorrhiza-Wirt).
-  * 🟩 Moos: **Beste Freunde!** Keimt mit Begeisterung in dichten Moospolstern.
-* **⚡ Superkraft:** **„Der 365-Tage-Dauerblüher“**  
-  *Kann als einziges Gras vom 1. Januar bis zum 31. Dezember durchgehend blühen und Samen werfen, selbst im Schnee.*
-* **🕊️ Tiernahrung & Bodendecke:**  
-  *Die wichtigste Futterpflanze für Spatzen und Stadttauben im Winter; befestigt lose Fugenkrume.*
+### Schöllkraut — *Chelidonium majus*
 
----
+Botanik (Artwerte): L 6 | F 5 | N 8; Höhe 0.3–0.9 m; CSR % 54.7 / 6.6 / 38.8; maximale Wurzeltiefe k. A. m; Wurzelradius k. A. m; Knospenbank 20.
 
-### 8. Silber-Birnmoos (*Bryum argenteum*)
-* **Deutscher Name:** Silber-Birnmoos / Silbermoos
-* **Wissenschaftlicher Name:** *Bryum argenteum*
-* **Werte:** ☀️ Licht: `1–3` · 💧 Wasser: `1` · 🪴 Wurzel: `0` (Hat keine Wurzeln, nur Rhizoide)
-* **Netzwerk-Rolle:**
-  * Bildet die Basis für alle `Moss patches`.
-* **⚡ Superkraft:** **„Der Albedo-Spiegel & Auferstehung“**  
-  *Die Blattspitzen sind transparent und chlorophyllfrei; sie glänzen metallisch silber und werfen Sonnenstrahlung wie winzige Spiegel zurück. Kann jahrelang zu trockenem Staub schrumpfen und grünt bei einem Wassertropfen in 20 Minuten wieder auf!*
-* **💊 Kiez-Apotheke (Wundmoos):**  
-  *Diente historisch als saugfähiger, antiseptischer Not-Wundverband bei Schürfwunden.*
+Quelle: [Artprofil](https://pladias.cz/en/taxon/data/Chelidonium%20majus). Untergrund: [UNDERPLOT v39](https://doi.org/10.25829/idiv.3610-56acy9); Originalzeile im [Datenauszug](data/underplot-v39-auszug.csv).
+
+Phänologie im tschechischen Pladias-Datensatz: May–September (Artspanne, keine Garantie für jede Pflanze).
+
+Spielentwurf: Pilzverbindung als Test freigegeben; keine verifizierte Mykorrhiza-Aussage. Ameisen-Samentransport im Spiel freigegeben; Elaiosomen sind botanisch belegt, garantierte Transporte sind Spielregeln. Eine Verbindung wird unabhängig von der Pflanze umgedreht; Pflanzen-Level II bedeutet weder verholzt noch frostfest.
+
+### Behaartes Schaumkraut — *Cardamine hirsuta*
+
+Botanik (Artwerte): L 6 | F 5 | N 6; Höhe 0.1–0.25 m; CSR % 22.5 / 0 / 77.5; maximale Wurzeltiefe 0.37 m; Wurzelradius 0.155 m; Knospenbank 2.5.
+
+Quelle: [Artprofil](https://pladias.cz/en/taxon/data/Cardamine%20hirsuta). Untergrund: [UNDERPLOT v39](https://doi.org/10.25829/idiv.3610-56acy9); Originalzeile im [Datenauszug](data/underplot-v39-auszug.csv).
+
+Phänologie im tschechischen Pladias-Datensatz: April–June (Artspanne, keine Garantie für jede Pflanze).
+
+Spielentwurf: Pilzverbindung im Basistest nicht freigegeben; keine verifizierte Mykorrhiza-Aussage. Eine Verbindung wird unabhängig von der Pflanze umgedreht; Pflanzen-Level II bedeutet weder verholzt noch frostfest.
+
+### Breitwegerich — *Plantago major*
+
+Botanik (Artwerte): L 7 | F 5 | N 6; Höhe 0.1–0.4 m; CSR % 82.3 / 0 / 17.7; maximale Wurzeltiefe 0.497 m; Wurzelradius 0.33 m; Knospenbank 20.
+
+Quelle: [Artprofil](https://pladias.cz/en/taxon/data/Plantago%20major). Untergrund: [UNDERPLOT v39](https://doi.org/10.25829/idiv.3610-56acy9); Originalzeile im [Datenauszug](data/underplot-v39-auszug.csv).
+
+Phänologie im tschechischen Pladias-Datensatz: June–October (Artspanne, keine Garantie für jede Pflanze).
+
+Spielentwurf: Pilzverbindung als Test freigegeben; keine verifizierte Mykorrhiza-Aussage. Eine Verbindung wird unabhängig von der Pflanze umgedreht; Pflanzen-Level II bedeutet weder verholzt noch frostfest.
+
+### Sommer-Portulak — *Portulaca oleracea*
+
+Botanik (Artwerte): L 8 | F 4 | N 7; Höhe 0.05–0.3 m; CSR % 0.3 / 0 / 99.7; maximale Wurzeltiefe 0.25 m; Wurzelradius 0.12 m; Knospenbank 1.2.
+
+Quelle: [Artprofil](https://pladias.cz/en/taxon/data/Portulaca%20oleracea). Untergrund: [UNDERPLOT v39](https://doi.org/10.25829/idiv.3610-56acy9); Originalzeile im [Datenauszug](data/underplot-v39-auszug.csv).
+
+Phänologie im tschechischen Pladias-Datensatz: June–October (Artspanne, keine Garantie für jede Pflanze).
+
+Spielentwurf: Pilzverbindung im Basistest nicht freigegeben; keine verifizierte Mykorrhiza-Aussage. Eine Verbindung wird unabhängig von der Pflanze umgedreht; Pflanzen-Level II bedeutet weder verholzt noch frostfest.
+
+### Einjähriges Rispengras — *Poa annua*
+
+Botanik (Artwerte): L 7 | F 6 | N 8; Höhe 0.05–0.25 m; CSR % 6.8 / 35 / 58.2; maximale Wurzeltiefe 0.17 m; Wurzelradius 0.11 m; Knospenbank 4.2.
+
+Quelle: [Artprofil](https://pladias.cz/en/taxon/data/Poa%20annua). Untergrund: [UNDERPLOT v39](https://doi.org/10.25829/idiv.3610-56acy9); Originalzeile im [Datenauszug](data/underplot-v39-auszug.csv).
+
+Phänologie im tschechischen Pladias-Datensatz: January–December (Artspanne, keine Garantie für jede Pflanze).
+
+Spielentwurf: Pilzverbindung als Test freigegeben; keine verifizierte Mykorrhiza-Aussage. Eine Verbindung wird unabhängig von der Pflanze umgedreht; Pflanzen-Level II bedeutet weder verholzt noch frostfest.
+
+### Silber-Birnmoos — *Bryum argenteum*
+
+Botanik: Rhizoide, keine echten Wurzeln; Sporen statt Samen. L/F/N, CSR und Messmaße: k. A. Spielwerte vorläufig.
+
+Quelle: [Artprofil](https://www.britishbryologicalsociety.org.uk/learning/species-finder/bryum-argenteum/).
+
+Moos bildet Sporen und besitzt Rhizoide. Die vorliegenden Gefäßpflanzendaten belegen keine L/F/N- oder CSR-Zahlen für diese Art. Keine garantierte Wiederbelebung in exakt 20 Minuten aufdrucken.
+
+Spielentwurf: Pilzverbindung im Basistest nicht freigegeben; keine verifizierte Mykorrhiza-Aussage. Eine Verbindung wird unabhängig von der Pflanze umgedreht; Pflanzen-Level II bedeutet weder verholzt noch frostfest.
+
+## Quellenumfang
+
+Pladias: abgerufen am 30.10.2026, tschechische Artprofile; nicht mit regional abweichenden FloraWeb-Werten vermischen. UNDERPLOT: Portalversion v39 / Version 7196, DOI und Download-Prüfsumme in data/pflanzen.json. RDepth ist die aggregierte maximale Wurzeltiefe, LRExtent der maximale Radius; keine Messung an der dargestellten Pflanze. Fehlende Werte wurden nicht ergänzt. Knospenbankwerte aus UNDERPLOT und einzelnen CLO-PLA/Pladias-Profilen können durch Aggregation voneinander abweichen. Der Originaldatenauszug bleibt erhalten.

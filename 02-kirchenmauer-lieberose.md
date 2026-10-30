@@ -1,6 +1,8 @@
 # Die Arena: Kirchenmauer Lieberose
 
-![Kirchenmauer Lieberose](assets/lieberose-kirchenmauer.jpg)
+![Kirchenmauer Lieberose](assets/lieberose-kirchenmauer-original.png)
+
+**Entwurfsstand:** Die gedruckten Werte weichen in sieben Slots von der Texttabelle ab. Die historischen und lokalen Wetterangaben unten sind noch nicht quellengeprüft. [Bildvarianten](assets/README.md) · [Statusreview](07-status-review.md).
 
 ## 1. Was ist dieser Ort?
 Die **Stadtkirche Lieberose** (Brandenburg) ist eine historische gotische Backsteinkirche, die Ende des Zweiten Weltkriegs (April 1945, Kesselschlacht von Halbe) schwer beschädigt und zur Ruine wurde. 

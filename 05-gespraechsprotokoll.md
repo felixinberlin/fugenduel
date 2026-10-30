@@ -1,6 +1,6 @@
 # Chronologisches Gesprächsprotokoll & Design-Entwicklung
 
-Dieses Dokument fasst die gesamte Konversation und den Denkprozess zusammen, aus dem das vorliegende Material entstanden ist.
+Dieses Dokument ist die überlieferte Zusammenfassung der Designgespräche. Originalgespräche liegen hier nicht vor; Vollständigkeit und wissenschaftliche Aussagen sind damit nicht bestätigt. Den überprüften Stand beschreibt die [Statusreview vom 30.10.2026](07-status-review.md).
 
 ---
 

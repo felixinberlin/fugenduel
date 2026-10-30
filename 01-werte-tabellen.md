@@ -1,8 +1,10 @@
-# Fugenduell — Offizielle Wertetabellen
+# Fugenduel — Wertetabellen für den Prototyp
 
-> **Leitprinzip:**  
-> *„Die Werte sind biologisch und physikalisch fertig — die Kinder erfinden die Regeln.“*  
+> **Leitprinzip:**
+> *„Die Kinder erfinden die Regeln — wir machen Werte und Material nachvollziehbar.“*
 > Alle Werte bewegen sich intuitiv auf einer Skala von **1 bis 3** (oder speziellen klaren Icons). Keine großen Zahlen, kein Rechnen mit Kommastellen.
+
+**Prüfstand 30.10.2026:** Abschnitt 3 und die Pflanzenprompts werden gemeinsam aus [data/pflanzen.json](data/pflanzen.json) erzeugt. Die Brett- und Verbindungswerte in Abschnitt 1–2 sind ältere Spielentwürfe; Bilder und PDF weichen davon ab. Sie sind keine gemessenen Standortwerte oder bestätigten Naturgesetze. [Statusreview](07-status-review.md).
 
 ---
 
@@ -27,7 +29,7 @@ Das Spielfeld besteht aus 10 Mikrostandorten (Slots). Die oberen 5 Slots bilden 
 
 ## 2. Die Werte der Verbindungs-Streifen (Doppelseitig)
 
-Jeder Streifen hat zwei Seiten: **Seite A = Level 1** und **Seite B = Level 2**.  
+Jeder Streifen hat zwei Seiten: **Seite A = Level 1** und **Seite B = Level 2**.
 Wird eine Verbindung ausgebaut, wird der Streifen einfach auf die Rückseite umgedreht (*Flip!*).
 
 ### 🪵 Wurzel-Streifen (Brauner Kartonstreifen)
@@ -64,17 +66,19 @@ Das Moos ist ein unregelmäßiges grünes Plättchen, das direkt auf einen belie
 
 ---
 
-## 3. Die Werte der Pflanzenkarten (Inklusive Kiez-Apotheke & Küche)
+## 3. Die Werte der Pflanzenkarten — Level I und II
 
-Jede Pflanzenkarte trägt dieselben Kernsymbole plus ihre reale Heil- oder Nutzkraft.
+Die beiden Seiten zeigen junge und etablierte Pflanzen. Botanische Artwerte bleiben gleich; Wurzelraum und Triebe sind vorgeschlagene Spielwerte, keine gemessenen Entwicklungsstufen. Licht und Feuchte werden für die sieben Gefäßpflanzen aus **Pladias** in drei Kategorien zusammengefasst: **1–3 → 1, 4–6 → 2, 7–9 → 3**. Diese Einteilung ist eine Designentscheidung. Die Pflanzenwerte sind Standortpräferenzen; passende Felder und zulässige Toleranzen vereinbaren die Kinder. Wurzelraum ist der Platzbedarf im Spiel und wird nicht aus Metern errechnet. Beim Moos sind Licht 1–3 und Wasser 1 vorläufige Spielwerte ohne hier verifizierte Zeigerwerte. Fehlende Messwerte bleiben `k. A.`; Wurzelraum 0 bezeichnet Rhizoide.
 
-| Pflanze | ☀️ Licht | 💧 Wasser | 🪴 Wurzel | 🍄 Pilz? | Botanische Superkraft | 💊 Kiez-Apotheke & Wildküche |
-|---|:---:|:---:|:---:|:---:|---|---|
-| **Mauerraute**<br>*(Asplenium ruta-muraria)* | `3` | `1` | `1` | ✅ Ja | 🛡️ **Kalk-Panzer:** 0 Dürreschaden; braucht Moosbett zum Keimen! | 💊 Historischer Hustentee bei Lungenleiden. |
-| **Zimbelkraut**<br>*(Cymbalaria muralis)* | `2` | `2` | `2` | ✅ Ja | 🪵 **Kletter-Meister:** Legt bis zu 3 Wurzelstreifen; Mauer-Rückzug. | 🥗 Essbar (pfeffrig wie Kresse); Wundheilsaft. |
-| **Schöllkraut**<br>*(Chelidonium majus)* | `2` | `2` | `3` | ✅ Ja | 🐜 **Ameisen-Freund:** Lockt Ameisen an; teilt Stickstoff. | 💊 **Warzenkraut:** Oranger Saft ätzt Warzen weg *(giftig!)*. |
-| **Behaartes Schaumkraut**<br>*(Cardamine hirsuta)* | `2` | `2` | `1` | 🚫 **Nein!** | 🚀 **Schotenmörser:** Schießt Samen 2 Felder weit durch die Luft. | 🥗 **Winterkresse:** Scharf wie Wasabi, Vitamin-C-Bombe! |
-| **Breitwegerich**<br>*(Plantago major)* | `3` | `2` | `2` | ✅ Ja | 👟 **Gummiblatt:** Tritt-immun; erstickt Moos bei Überdeckung. | 💊 **Grünes Pflaster:** Heilt Blasen, Stiche und Schnitte sofort. |
-| **Sommer-Portulak**<br>*(Portulaca oleracea)* | `3` | `1` | `1` | 😐 Selten | 🔥 **C4-Turbo:** Verdoppelt Wachstum im heißesten Sommer! | 🥗 **Superfood:** Knackig-salziger Salat mit viel Omega-3. |
-| **Einjähriges Rispengras**<br>*(Poa annua)* | `2` | `3` | `1` | ✅ Ja | 🌾 **365-Tage-Blüte:** Blüht ganzjährig; keimt rasant im Moos. | 🕊️ Wichtigstes Vogelfutter für Stadtspatzen im Winter. |
-| **Silber-Birnmoos**<br>*(Bryum argenteum)* | `1–3` | `1` | `0` | 😐 Nein | ⚡ **Auferstehung:** Scheintod bei Dürre; Albedo-Hitzespiegel. | 💊 Historischer antiseptischer Wundverband. |
+| Pflanze | Licht I / II | Wasser I / II | Wurzelraum I / II | Triebe I / II |
+|---|---|---|---|---|
+| Zimbelkraut | 2 / 2 | 2 / 2 | 1 / 2 | 1 / 2 |
+| Mauerraute | 3 / 3 | 1 / 1 | 1 / 1 | 1 / 2 |
+| Schöllkraut | 2 / 2 | 2 / 2 | 2 / 3 | 1 / 3 |
+| Behaartes Schaumkraut | 2 / 2 | 2 / 2 | 1 / 1 | 1 / 1 |
+| Breitwegerich | 3 / 3 | 2 / 2 | 1 / 2 | 1 / 2 |
+| Sommer-Portulak | 3 / 3 | 2 / 2 | 1 / 1 | 1 / 3 |
+| Einjähriges Rispengras | 3 / 3 | 2 / 2 | 1 / 1 | 1 / 2 |
+| Silber-Birnmoos | 1–3 / 1–3 | 1 / 1 | 0 / 0 | 1 / 2 |
+
+Quellen und Artwerte: [Pflanzenkatalog](04-pflanzen-katalog.md). Fertige Prompts: [Level 1](PROMPTS-LEVEL-1.txt), [Level 2](PROMPTS-LEVEL-2.txt).

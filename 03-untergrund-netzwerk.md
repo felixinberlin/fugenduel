@@ -1,5 +1,7 @@
 # Das Untergrund-Netzwerk: Streifen & Plättchen
 
+**Entwurfsstand 30.10.2026:** Dieses Dokument beschreibt den ursprünglichen Regelvorschlag. Das [A4-PDF](assets/Fugenduell-Verbindungen-A4-v1.pdf) enthält eine andere Testvariante. Wirkungen, Mykorrhiza-Freigaben und pauschale Frostfestigkeit sind Spielannahmen, keine wissenschaftlich bestätigten Naturgesetze. Pflanzenlevel und Verbindungslevel werden unabhängig umgedreht; Pflanzen-Level II bedeutet nicht automatisch Wurzelraum 2 oder Verholzung. Die aktuellen Pflanzenwerte stehen im [Katalog](04-pflanzen-katalog.md), die Varianten im [Review](07-status-review.md).
+
 In Fugenduell ist die Backsteinmauer kein passives Bild, sondern ein **durchadertes Ökosystem**. 
 
 Die Spieler nutzen physische Spielsteine (doppelseitige Streifen und organische Moos-Plättchen), die sie in die Mörtelfugen zwischen den Slots legen.
