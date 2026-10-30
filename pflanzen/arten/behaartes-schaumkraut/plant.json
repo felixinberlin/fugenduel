@@ -1,0 +1,153 @@
+{
+  "id": "behaartes-schaumkraut",
+  "folder": "behaartes-schaumkraut",
+  "name": "Behaartes Schaumkraut",
+  "scientific_name": "Cardamine hirsuta",
+  "family": "Brassicaceae (Kreuzblütler)",
+  "common_names": [
+    "Behaartes Schaumkraut",
+    "Spring-Schaumkraut",
+    "Springkresse",
+    "Winterkresse",
+    "Gartenschaumkraut",
+    "Hairy Bittercress"
+  ],
+  "life_form": "Therophyt (Einjährige bis winterannuelle Pflanze)",
+  "life_cycle": "Einjährig (extrem schneller Lebenszyklus von nur 4 bis 6 Wochen)",
+  "botany": {
+    "indicator_values": {
+      "light": 6,
+      "moisture": 5,
+      "nutrients": 6,
+      "soil_reaction": 6,
+      "salinity": 0
+    },
+    "csr_strategy": {
+      "c_percent": 22.5,
+      "s_percent": 0.0,
+      "r_percent": 77.5,
+      "primary_class": "R (Ruderal / Opportunistischer Schnellstarter)"
+    },
+    "morphology": {
+      "height_min_m": 0.1,
+      "height_max_m": 0.25,
+      "growth_form": "Zierliche Grundrosette mit gefiederten Blättern und aufrechten Blütenstängeln",
+      "root_system": "Feine, zarte Pfahl- und Faserwurzeln",
+      "max_root_depth_m": 0.37,
+      "root_radius_m": 0.155,
+      "bud_bank_size": 2.5
+    },
+    "phenology": {
+      "flowering_period": "April bis Juni (bei mildem Wetter schon ab Januar/Februar bis zum Winterfrost)",
+      "dispersal_mechanism": "Ballochorie (Schleuderfrucht): Bei Berührung oder Reife rollen sich die Fruchtklappen explosionsartig spiralförmig auf und katapultieren die Samen bis zu 2 Meter weit!"
+    },
+    "sources": [
+      {
+        "name": "Pladias Database",
+        "url": "https://pladias.cz/en/taxon/data/Cardamine%20hirsuta"
+      },
+      {
+        "name": "UNDERPLOT v39 (IDIV)",
+        "url": "https://doi.org/10.25829/idiv.3610-56acy9"
+      }
+    ]
+  },
+  "goodies": {
+    "folk_names": [
+      "Springkresse",
+      "Winterkresse",
+      "Viermänniges Schaumkraut",
+      "Katapultkraut"
+    ],
+    "tradition_lore": "Gärtner fürchten es wegen seiner Schleuderkraft, aber Feinschmecker und Kräuterkundige lieben es als das früheste frische Frühlingsgewürz des Jahres, das oft schon im Februar unter dem Schnee hervorspitzt.",
+    "medicinal_uses": {
+      "title": "Frühjahrs-Vitamingift & Immun-Kick",
+      "summary": "Enthält reichlich Vitamin C und scharfe Senfölglykoside, die traditionell bei Frühjahrsmüdigkeit und zur Blutreinigung nach dem Winter gegessen wurden.",
+      "preparation": "Frisch gepflückt als Kraut roh essen oder fein gehackt auf Quark und Salate streuen."
+    },
+    "culinary_uses": {
+      "title": "Das beste wilde Straßen-Gewürz",
+      "summary": "Schmeckt herrlich knackig, saftig und angenehm scharf wie beste Brunnenkresse, Wasabi oder Radieschen. Ein echter Delikatessen-Snack auf dem Butterbrot!",
+      "taste": "Knackig, scharf-würzig wie Gartenkresse oder Rettich",
+      "edibility": "Voll essbar (Rosettenblätter, Blüten und unreife Schoten)"
+    },
+    "active_compounds": [
+      {
+        "name": "Glucosinolate (Senföle)",
+        "effect": "Scharfe Schwefelverbindungen mit natürlicher antibiotischer und antibakterieller Schutzwirkung."
+      },
+      {
+        "name": "Vitamin C (Ascorbinsäure)",
+        "effect": "Stärkt das Immunsystem und die körpereigenen Abwehrkräfte."
+      },
+      {
+        "name": "Bitterstoffe",
+        "effect": "Fördern Verdauung und Magensaftsekretion."
+      }
+    ],
+    "game_healing_effect": {
+      "name": "Frühjahrs-Kick",
+      "effect": "Schaltet im ersten Frühlingsmonat sofortige Keimung frei.",
+      "description": "Keimt bereits beim ersten Tauwetter und besetzt freie Nischen, bevor Konkurrenten erwachen."
+    },
+    "street_discovery_tip": "Such im Vorfrühling in Fugen vor Haustüren oder an Mauern. Streife mit dem Finger vorsichtig über die reifen aufrechten Schoten: Mit einem leisen 'Plopp' spürst du kleine Samengeschosse gegen deine Fingerspitzen fliegen!"
+  },
+  "game_adaptations": {
+    "board_game": {
+      "level_1": {
+        "level": 1,
+        "stage": "Kleine Blattrosette",
+        "light": 2,
+        "water": 2,
+        "root_space": 1,
+        "shoots": 1,
+        "trait": "Kleine Blattrosette",
+        "special_power": "Frühstarter: Keimt bei mildem Winterwetter sofort"
+      },
+      "level_2": {
+        "level": 2,
+        "stage": "Reife Schoten schleudern Samen",
+        "light": 2,
+        "water": 2,
+        "root_space": 1,
+        "shoots": 1,
+        "trait": "Reife Schoten schleudern Samen",
+        "special_power": "Samen-Katapult: Schleudert Samen bei Störung bis zu 2 Slots weit!"
+      },
+      "network_affinities": {
+        "root_connection": true,
+        "fungal_connection": false,
+        "ant_connection": false,
+        "notes": "PILZ-SPERRE! Als Kreuzblütler sondert es Senföle ab, die Pilzmyzel zersetzen. Kann nicht an Pilzstreifen angeschlossen werden!"
+      }
+    },
+    "card_game": {
+      "stats_0_10": {
+        "wurzel": 3,
+        "tritt": 4,
+        "duerre": 3,
+        "saat": 8,
+        "tempo": 9,
+        "chemie": 5,
+        "total": 32
+      },
+      "signature_skills": [
+        {
+          "name": "Schleudersitz",
+          "type": "Reaktion",
+          "condition": "Bei Niederlage",
+          "effect": "Schleudert bei Vernichtung sofort Samen in zwei Nachbararenen"
+        },
+        {
+          "name": "Senföl-Barriere",
+          "type": "Passiv",
+          "condition": "Permanent",
+          "effect": "Zerstört gegnerische Pilzverbindungen an dieser Nische"
+        }
+      ]
+    }
+  },
+  "media": {
+    "images": []
+  }
+}

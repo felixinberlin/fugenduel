@@ -1,0 +1,163 @@
+{
+  "id": "breitwegerich",
+  "folder": "breitwegerich",
+  "name": "Breitwegerich",
+  "scientific_name": "Plantago major",
+  "family": "Plantaginaceae (Wegerichgewächse)",
+  "common_names": [
+    "Breitwegerich",
+    "Wiesenpflaster",
+    "König der Wege",
+    "Großer Wegerich",
+    "Greater Plantain"
+  ],
+  "life_form": "Hemicryptophyt (Knospen an der Erdoberfläche)",
+  "life_cycle": "Ausdauernd (Mehrjährig)",
+  "botany": {
+    "indicator_values": {
+      "light": 7,
+      "moisture": 5,
+      "nutrients": 6,
+      "soil_reaction": 7,
+      "salinity": 1
+    },
+    "csr_strategy": {
+      "c_percent": 82.3,
+      "s_percent": 0.0,
+      "r_percent": 17.7,
+      "primary_class": "CR (Competitor-Ruderal / Tritt-Konkurrent)"
+    },
+    "morphology": {
+      "height_min_m": 0.1,
+      "height_max_m": 0.4,
+      "growth_form": "Bodennahe Rosette mit derben, parallelnervigen Blättern",
+      "root_system": "Kräftiges Homorhizes Faserwurzelsystem mit dichtem Wurzelstock",
+      "max_root_depth_m": 0.497,
+      "root_radius_m": 0.33,
+      "bud_bank_size": 20.0
+    },
+    "phenology": {
+      "flowering_period": "Juni bis Oktober",
+      "dispersal_mechanism": "Epizoochorie / Anthropochorie (Schleimsamen haften an Schuhsohlen und Tierpfoten)"
+    },
+    "sources": [
+      {
+        "name": "Pladias Database",
+        "url": "https://pladias.cz/en/taxon/data/Plantago%20major"
+      },
+      {
+        "name": "UNDERPLOT v39 (IDIV)",
+        "url": "https://doi.org/10.25829/idiv.3610-56acy9"
+      }
+    ]
+  },
+  "goodies": {
+    "folk_names": [
+      "Wiesenpflaster",
+      "König der Wege",
+      "Fußstapfen des weißen Mannes",
+      "Wegetritt"
+    ],
+    "tradition_lore": "Schon in antiken und mittelalterlichen Kräuterbüchern das verlässlichste Wundkraut für Wanderer und Reisende. Von indigenen Völkern Nordamerikas als 'Fußstapfen des weißen Mannes' bezeichnet, da er überall dort keimte, wo europäische Siedler Wege anlegten.",
+    "medicinal_uses": {
+      "title": "Das grüne Notfall-Pflaster",
+      "summary": "Kühlt und heilt Mückenstiche, Brennnesselverbrennungen, kleine Schürfwunden und Blasen an den Füßen.",
+      "preparation": "Ein frisches Blatt pflücken, kurz reinigen, zwischen Fingern zerreiben oder kauen, bis grüner Pflanzensaft austritt, und direkt auf die Wunde pressen."
+    },
+    "culinary_uses": {
+      "title": "Wildsalat & Wegerich-Gemüse",
+      "summary": "Junge zarte Blätter im Frühjahr haben ein feines, leicht nussig-pilziges Aroma. Roh in Wildkräutersalaten oder kurz gedünstet wie Spinat. Die reifen Samen im Spätsommer liefern mineralstoffreiches Wildgetreide.",
+      "taste": "Nussig, mineralisch, dezent champignonartig",
+      "edibility": "Voll essbar (junge Blätter und reife Samen)"
+    },
+    "active_compounds": [
+      {
+        "name": "Aucubin",
+        "effect": "Natürliches Iridoidglykosid mit stark antibiotischer, antibakterieller und entzündungshemmender Wirkung."
+      },
+      {
+        "name": "Kieselsäure",
+        "effect": "Stärkt das Bindegewebe und fördert die schnelle Wundschließung."
+      },
+      {
+        "name": "Schleimstoffe & Gerbstoffe",
+        "effect": "Legen einen schützenden Film über gereizte Haut und Schleimhäute."
+      }
+    ],
+    "game_healing_effect": {
+      "name": "Grünes Pflaster",
+      "effect": "Heilt 1 befreundeten Trieb nach Trittschaden oder Frost.",
+      "description": "Wird eine benachbarte Pflanze von Tritten getroffen, darf der Breitwegerich-Spieler einen Trieb zur Wundheilung einsetzen."
+    },
+    "street_discovery_tip": "Such nach Gehwegplatten oder Pflasterfugen, auf die ständig getreten wird! Zupfe vorsichtig an einem Blattstiel: Du siehst elastische, sehnige Fäden – die 'Panzer-Rippen', die dafür sorgen, dass das Blatt selbst unter schweren Stiefeln nicht zerreißt."
+  },
+  "game_adaptations": {
+    "board_game": {
+      "level_1": {
+        "level": 1,
+        "stage": "Junge bodennahe Rosette",
+        "light": 3,
+        "water": 2,
+        "root_space": 1,
+        "shoots": 1,
+        "trait": "Junge bodennahe Rosette",
+        "special_power": "Trittfeste Fugenrosette"
+      },
+      "level_2": {
+        "level": 2,
+        "stage": "Breite Rosette mit Blütenähren",
+        "light": 3,
+        "water": 2,
+        "root_space": 2,
+        "shoots": 2,
+        "trait": "Moos-Ersticker / Panzer-Gummiblatt",
+        "special_power": "Zähe Längsrippen federn Stiefel ab; wirft Dauerschatten auf Konkurrenten"
+      },
+      "network_affinities": {
+        "root_connection": true,
+        "fungal_connection": true,
+        "ant_connection": false,
+        "notes": "Nutzt kräftige Faserwurzeln zur Verankerung; bildet Mykorrhiza hinter Gehwegsteinen."
+      }
+    },
+    "card_game": {
+      "stats_0_10": {
+        "wurzel": 5,
+        "tritt": 9,
+        "duerre": 6,
+        "saat": 4,
+        "tempo": 4,
+        "chemie": 4,
+        "total": 32
+      },
+      "signature_skills": [
+        {
+          "name": "Trittplatte",
+          "type": "Passiv",
+          "condition": "Störung >= 7",
+          "effect": "Verdoppelt TRITT bei starker Trittbelastung"
+        },
+        {
+          "name": "Sohlenfracht",
+          "type": "Nutzen",
+          "condition": "Passantenkontakt",
+          "effect": "Klebrige Schleimsamen haften an Schuhsohlen und reisen in Nachbararenen"
+        }
+      ]
+    }
+  },
+  "media": {
+    "images": [
+      {
+        "filename": "breitwegerich-datenkarte.png",
+        "type": "datenkarte",
+        "title": "Botanische Datenkarte (Wurzelschnitt & Traits)"
+      },
+      {
+        "filename": "breitwegerich-level-2.jpg",
+        "type": "karte_level_2",
+        "title": "Fugenduel Spielkarte Level 2: Breitwegerich"
+      }
+    ]
+  }
+}

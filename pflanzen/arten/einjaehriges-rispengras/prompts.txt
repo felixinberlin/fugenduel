@@ -1,0 +1,29 @@
+======================================================================
+Einjähriges Rispengras (Poa annua) — LEVEL 1
+======================================================================
+
+Create one finished FUGENDUEL botanical game card, portrait 2:3, full card visible with identical dimensions and layout across the series. Use a restrained weathered brick and dark stone frame, warm parchment panels, dark legible type, natural macro photography style and authentic urban plant anatomy.
+Subject: Poa annua. Stage: young vegetative plant or colony. Junger Grasbüschel.
+Render these German labels and values exactly:
+FUGENDUEL
+Einjähriges Rispengras
+Poa annua
+LEVEL 1
+Spielwerte: Licht 3 | Wasser 2 | Wurzelraum 1 | Triebe 1
+Eigenschaft: Junger Grasbüschel
+Footer: Artwerte, keine Messung dieser Pflanze. Level und Spielwerte sind Spielentwurf. k. A. = keine Angabe.
+
+======================================================================
+Einjähriges Rispengras (Poa annua) — LEVEL 2
+======================================================================
+
+Create one finished FUGENDUEL botanical game card, portrait 2:3, full card visible with identical dimensions and layout across the series. Use a restrained weathered brick and dark stone frame, warm parchment panels, dark legible type, natural macro photography style and authentic urban plant anatomy.
+Subject: Poa annua. Stage: established reproductive plant or colony. Lockere Rispen mit Ährchen.
+Render these German labels and values exactly:
+FUGENDUEL
+Einjähriges Rispengras
+Poa annua
+LEVEL 2
+Spielwerte: Licht 3 | Wasser 2 | Wurzelraum 1 | Triebe 2
+Eigenschaft: Lockere Rispen mit Ährchen
+Footer: Artwerte, keine Messung dieser Pflanze. Level und Spielwerte sind Spielentwurf. k. A. = keine Angabe.

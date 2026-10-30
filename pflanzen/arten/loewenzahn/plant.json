@@ -1,0 +1,154 @@
+{
+  "id": "loewenzahn",
+  "folder": "loewenzahn",
+  "name": "Gewöhnlicher Löwenzahn",
+  "scientific_name": "Taraxacum officinale",
+  "family": "Asteraceae (Korbblütler)",
+  "common_names": [
+    "Gewöhnlicher Löwenzahn",
+    "Pusteblume",
+    "Butterblume",
+    "Kuhblume",
+    "Common Dandelion"
+  ],
+  "life_form": "Hemicryptophyt (Kräftige Rosette mit Pfahlwurzel)",
+  "life_cycle": "Ausdauernd (Mehrjährig)",
+  "botany": {
+    "indicator_values": {
+      "light": 7,
+      "moisture": 5,
+      "nutrients": 6,
+      "soil_reaction": 7,
+      "salinity": 0
+    },
+    "csr_strategy": {
+      "c_percent": 45.0,
+      "s_percent": 5.0,
+      "r_percent": 50.0,
+      "primary_class": "RC (Ruderal-Competitor / Zäher Allrounder)"
+    },
+    "morphology": {
+      "height_min_m": 0.1,
+      "height_max_m": 0.4,
+      "growth_form": "Grundständige Blattrosette mit scharf gezähnten Blättern und hohlen Blütenstandsschäften",
+      "root_system": "Fleischige, bis zu 1 bis 2 Meter tiefe Pfahlwurzel; regeneriert aus kleinsten Fragmenten",
+      "max_root_depth_m": 1.0,
+      "root_radius_m": 0.35,
+      "bud_bank_size": 20.0
+    },
+    "phenology": {
+      "flowering_period": "März bis November (Hauptblüte im April/Mai)",
+      "dispersal_mechanism": "Anemochorie: Fallschirmchen (Pappus) tragen rund 5.000 Flugsamen pro Pflanze bis zu mehrere Kilometer weit!"
+    },
+    "sources": [
+      {
+        "name": "Pladias Database",
+        "url": "https://pladias.cz/en/taxon/data/Taraxacum%20sect.%20Taraxacum"
+      },
+      {
+        "name": "UNDERPLOT v39 / TRY DB",
+        "url": "https://doi.org/10.25829/idiv.3610-56acy9"
+      }
+    ]
+  },
+  "goodies": {
+    "folk_names": [
+      "Pusteblume",
+      "Kuhblume",
+      "Butterblume",
+      "Märzenbecher",
+      "Piss-en-lit",
+      "Röhrliblüemli"
+    ],
+    "tradition_lore": "Der Inbegriff des urbanen Überlebenskünstlers: Er sprengt buchstäblich Teerbeläge und Betonplatten auf. In Frankreich als 'Piss-en-lit' bekannt wegen seiner stark harntreibenden Wirkung.",
+    "medicinal_uses": {
+      "title": "Der Kiez-Stoffwechsel-Booster",
+      "summary": "Die enthaltenen Bitterstoffe regen Leber, Galle und Bauchspeicheldrüse an, reinigen das Blut und wirken harntreibend.",
+      "preparation": "Junge Blätter im Frühjahr als Entschlackungssalat; getrocknete Wurzeln als reinigender Lebertee oder geröstet als koffeinfreier Löwenzahn-Kaffee."
+    },
+    "culinary_uses": {
+      "title": "Delikatessen-Salat & Löwenzahn-Honig",
+      "summary": "Junge Blätter vor der Blüte schmecken herb-würzig und aromatisch. Die sonnengelben Blütenköpfe werden mit Zitrone und Zucker zu goldgelbem 'Löwenzahn-Honig' eingekocht.",
+      "taste": "Herb-würzig, zartbitter, nussig",
+      "edibility": "Vollständig essbar (Blätter, Blüten, Knospen und Wurzeln)"
+    },
+    "active_compounds": [
+      {
+        "name": "Taraxacin (Bitterstoffe)",
+        "effect": "Fördert die Verdauungssäfte und kurbelt den Gallenfluss an."
+      },
+      {
+        "name": "Inulin",
+        "effect": "Präbiotischer Ballaststoff in der Wurzel (bis zu 40 % im Herbst!), nährt gesunde Darmbakterien."
+      },
+      {
+        "name": "Cholin & Kalium",
+        "effect": "Leberstärkend und natürlicher Elektrolytausgleich."
+      }
+    ],
+    "game_healing_effect": {
+      "name": "Wurzel-Regeneration",
+      "effect": "Regeneriert selbst nach Zerstörung aus verbliebenen Wurzelfragmenten.",
+      "description": "Erlaubt ein Wiederauferstehen in derselben Nische im nächsten Frühjahr."
+    },
+    "street_discovery_tip": "Puste auf eine reife Pusteblume: Jeder einzelne Fallschirm (Pappus) trägt genau einen Samen. Die winzigen Federchen erzeugen bei der leisesten Brise einen Mini-Wirbelsturm über dem Schirm, der ihn wie einen Heißluftballon hunderte Meter über Straßen und Häuserblöcke segeln lässt."
+  },
+  "game_adaptations": {
+    "board_game": {
+      "level_1": {
+        "level": 1,
+        "stage": "Junge Pfahlwurzel-Rosette",
+        "light": 3,
+        "water": 2,
+        "root_space": 2,
+        "shoots": 1,
+        "trait": "Pfahlwurzelbohrer",
+        "special_power": "Tiefwurzler: Erschließt Wasser aus tiefen Erdklüften"
+      },
+      "level_2": {
+        "level": 2,
+        "stage": "Ausgewachsene Blattrosette mit Pusteblume",
+        "light": 3,
+        "water": 2,
+        "root_space": 3,
+        "shoots": 2,
+        "trait": "Fallschirmwolke & Samenbank",
+        "special_power": "Pappus-Schwarm: Sendet Flugsamen über das gesamte Spielbrett"
+      },
+      "network_affinities": {
+        "root_connection": true,
+        "fungal_connection": true,
+        "ant_connection": false,
+        "notes": "Pfahlwurzler mit starker Tiefenwirkung; sprengt verdichteten Untergrund auf."
+      }
+    },
+    "card_game": {
+      "stats_0_10": {
+        "wurzel": 5,
+        "tritt": 5,
+        "duerre": 5,
+        "saat": 6,
+        "tempo": 7,
+        "chemie": 4,
+        "total": 32
+      },
+      "signature_skills": [
+        {
+          "name": "Fallschirmwolke",
+          "type": "Aktiv",
+          "condition": "Rundensieg",
+          "effect": "+2% Coverage durch weitreichenden Samenausstoß"
+        },
+        {
+          "name": "Pfahlwurzelbohrer",
+          "type": "Passiv",
+          "condition": "Zerstörung",
+          "effect": "Halbiert Deckungsverlust bei Wurzelstress und regeneriert"
+        }
+      ]
+    }
+  },
+  "media": {
+    "images": []
+  }
+}

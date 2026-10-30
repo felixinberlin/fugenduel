@@ -1,0 +1,159 @@
+{
+  "id": "mauerraute",
+  "folder": "mauerraute",
+  "name": "Mauerraute",
+  "scientific_name": "Asplenium ruta-muraria",
+  "family": "Aspleniaceae (Streifelanfargewächse)",
+  "common_names": [
+    "Mauerraute",
+    "Mauerstreifenfarn",
+    "Steinfarn",
+    "Mauer-Haarfarn",
+    "Wall-Rue Fern"
+  ],
+  "life_form": "Hemicryptophyt (Immergrüner Fels- und Mauerfarn)",
+  "life_cycle": "Ausdauernd (Mehrjährig, langlebig bis 80-100 Jahre)",
+  "botany": {
+    "indicator_values": {
+      "light": 8,
+      "moisture": 3,
+      "nutrients": 3,
+      "soil_reaction": 8,
+      "salinity": 0
+    },
+    "csr_strategy": {
+      "c_percent": 12.6,
+      "s_percent": 54.6,
+      "r_percent": 32.8,
+      "primary_class": "S (Stress-Tolerator / Extremer Fels- & Kalkspezialist)"
+    },
+    "morphology": {
+      "height_min_m": 0.05,
+      "height_max_m": 0.2,
+      "growth_form": "Dichte Horste mit ledrigen, rautenförmig geteilten blaugrünen Wedeln",
+      "root_system": "Kurz kriechendes, dicht beschupptes Rhizom mit drahtigen Felswurzeln",
+      "max_root_depth_m": null,
+      "root_radius_m": null,
+      "bud_bank_size": 10.0
+    },
+    "phenology": {
+      "flowering_period": "Sporenreife Juli bis September (Farn bildet Sporen, keine Blüten oder Samen!)",
+      "dispersal_mechanism": "Anemochorie: Rund 10 Millionen mikroskopisch feine Sporen pro Pflanze und Jahr mit dem Wind"
+    },
+    "sources": [
+      {
+        "name": "Pladias Database",
+        "url": "https://pladias.cz/en/taxon/data/Asplenium%20ruta-muraria"
+      },
+      {
+        "name": "UNDERPLOT v39 (IDIV)",
+        "url": "https://doi.org/10.25829/idiv.3610-56acy9"
+      }
+    ]
+  },
+  "goodies": {
+    "folk_names": [
+      "Mauerraute",
+      "Steinfarn",
+      "Mauer-Haarfarn",
+      "Hustenfarn",
+      "Rauten-Streifenfarn"
+    ],
+    "tradition_lore": "Im Mittelalter hoch geschätztes Kraut der Klostermedizin. Wegen seiner rautenförmigen Blätter und seiner Unzerstörbarkeit auf sonnigen Burgmauern galt er als Symbol ewigen Lebens.",
+    "medicinal_uses": {
+      "title": "Das historische Lungen- und Hustenkraut",
+      "summary": "Wurde früher als schleimlösender Tee gegen hartnäckigen Husten, Keuchhusten und Bronchitis sowie bei Milz- und Gelbsuchtleiden getrunken.",
+      "preparation": "Getrocknete Wedel als Aufguss (Tee). Heute wegen Naturschutz an Naturfelsen nur noch historisch bedeutsam."
+    },
+    "culinary_uses": {
+      "title": "Keine Speisepflanze",
+      "summary": "Geschmacklich zäh, bitter und ungenießbar. Reine Heil-, Schutz- und Pionierpflanze.",
+      "taste": "Bitter, adstringierend, zäh",
+      "edibility": "Nicht giftig, aber ungenießbar"
+    },
+    "active_compounds": [
+      {
+        "name": "Gerbstoffe",
+        "effect": "Stark adstringierend, gewebestraffend und antibakteriell."
+      },
+      {
+        "name": "Schleimstoffe",
+        "effect": "Reizlindernd auf die Atemwege."
+      },
+      {
+        "name": "Flavonoide & Bitterstoffe",
+        "effect": "Zellschützend vor UV-B-Strahlung auf sonnigen Mauerkronen."
+      }
+    ],
+    "game_healing_effect": {
+      "name": "Felsbalsam",
+      "effect": "Schützt Nachbarpflanzen vor Pilzbefall.",
+      "description": "Erzeugt durch basischen Kalkmörtel ein alkalisches Mikroklima, das schädliche Pilze hemmt."
+    },
+    "street_discovery_tip": "Such an alten Kirchen, Friedhofsmauern oder Brückenpfeilern nach Mauern mit weißem Kalkmörtel. Wenn du die Wedel im Hochsommer bei 35 Grad siehst, wirken sie oft braun und wie vertrocknet. Nach dem ersten Gewitterguss entfalten sie sich innerhalb weniger Stunden wieder saftig grün (Poikilohydrie)!"
+  },
+  "game_adaptations": {
+    "board_game": {
+      "level_1": {
+        "level": 1,
+        "stage": "Jungfarn im feuchten Spalt",
+        "light": 3,
+        "water": 1,
+        "root_space": 1,
+        "shoots": 1,
+        "trait": "Jungfarn im feuchten Spalt",
+        "special_power": "Keimt im feuchten Moosbett auf Kalkmörtel"
+      },
+      "level_2": {
+        "level": 2,
+        "stage": "Reife Wedel mit Sporenlagern",
+        "light": 3,
+        "water": 1,
+        "root_space": 1,
+        "shoots": 2,
+        "trait": "Reife Wedel mit Sporenlagern",
+        "special_power": "Austrocknungsstarre: Übersteht glühende Sommerhitze; immun gegen Sonnenbrand"
+      },
+      "network_affinities": {
+        "root_connection": true,
+        "fungal_connection": true,
+        "ant_connection": false,
+        "notes": "Gedeiht besonders auf Kalkmörtel (pH > 7.5); benötigt Moos-Patches als feuchtes Keimbett für Sporen."
+      }
+    },
+    "card_game": {
+      "stats_0_10": {
+        "wurzel": 6,
+        "tritt": 2,
+        "duerre": 9,
+        "saat": 4,
+        "tempo": 2,
+        "chemie": 5,
+        "total": 28
+      },
+      "signature_skills": [
+        {
+          "name": "Kalkanker",
+          "type": "Passiv",
+          "condition": "Kalkfuge",
+          "effect": "+3 WURZEL in historischem Mörtel"
+        },
+        {
+          "name": "Austrocknungsstarre",
+          "type": "Ultimate",
+          "condition": "Dürre-Runde verloren",
+          "effect": "Erholt sich nach Dürre sofort; kein Deckungsverlust unter 5%"
+        }
+      ]
+    }
+  },
+  "media": {
+    "images": [
+      {
+        "filename": "mauerraute-level-1.jpg",
+        "type": "karte_level_1",
+        "title": "Fugenduel Spielkarte Level 1: Mauerraute"
+      }
+    ]
+  }
+}

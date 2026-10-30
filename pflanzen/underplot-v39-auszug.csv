@@ -1,0 +1,8 @@
+Aggregated_name,GRooT_Resolved_name,RSIP_Original_name,RSIP_Resolved_name,CLOPLA_Original_name,CLOPLA_Resolved_name,RN,RD,RTD,SRL,RDepth,LRExtent,Coarse.fine.ratio,BBdepth,BBsize,n.offspring.per.shoot,Lateral.expansion,Connection.persistence,CloGenExt,is.woody.below,is.woody.above,is.clonal,is.resprouting,BPT,CSI,CGO,Growth.form
+Asplenium ruta-muraria,NA,NA,NA,Asplenium ruta-muraria,Asplenium ruta-muraria,NA,NA,NA,NA,NA,NA,NA,3,10,0.5,0.5,2,1,FALSE,FALSE,TRUE,NA,3,1,epigeogenous rhizome,clonal perennial
+Cymbalaria muralis,NA,NA,NA,Cymbalaria muralis,Cymbalaria muralis,NA,NA,NA,NA,NA,NA,NA,1,15,NA,NA,NA,NA,FALSE,FALSE,FALSE,NA,2,0,herbaceous perennial non-clonal,non-clonal perennial
+Chelidonium majus,NA,NA,NA,Chelidonium majus,Chelidonium majus,NA,NA,NA,NA,NA,NA,NA,4,20,NA,NA,NA,NA,FALSE,FALSE,FALSE,NA,2,0,herbaceous perennial non-clonal,non-clonal perennial
+Cardamine hirsuta,NA,Cardamine hirsuta,Cardamine hirsuta,Cardamine hirsuta,Cardamine hirsuta,NA,NA,NA,NA,0.37,0.155,NA,1,2.5,NA,NA,NA,NA,FALSE,FALSE,FALSE,NA,1,0,annual,annual
+Plantago major,Plantago major,Plantago major,Plantago major,Plantago major,Plantago major,21.6877329761667,0.1577,0.17990099,184.765892,0.496666666666667,0.33,NA,4,20,1.6,0.5,3.6,1.8,FALSE,FALSE,TRUE,NA,3,1,epigeogenous rhizome,clonal perennial
+Portulaca oleracea,Portulaca oleracea,Portulaca oleracea,Portulaca oleracea,Portulaca oleracea,Portulaca oleracea,16.05578303,NA,NA,204.1311926,0.25,0.12,NA,1,1.2,NA,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,1,0,annual,"annual, forb"
+Poa annua,Poa annua,Poa annua,Poa annua,Poa annua,Poa annua,4.3385714285,0.159542334333333,0.441433566,395.78982726,0.17,0.11,NA,2.6,4.2,NA,NA,NA,NA,FALSE,FALSE,FALSE,NA,1,0,annual,annual

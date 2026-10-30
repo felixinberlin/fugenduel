@@ -1,0 +1,405 @@
+{
+  "version": "2026-10-30",
+  "note": "Botanical facts are species-level references; levels and root-space/shoot numbers are game design. Null means unavailable, never zero.",
+  "category_mapping": {
+    "light": "1–3 → 1; 4–6 → 2; 7–9 → 3",
+    "moisture": "1–3 → 1; 4–6 → 2; 7–9 → 3; aquatic 10–12 not supported"
+  },
+  "underplot": {
+    "version": "v39 / repository version 7196",
+    "doi": "https://doi.org/10.25829/idiv.3610-56acy9",
+    "download": "https://idata.idiv.de/ddm/Data/DownloadZip/3610?version=7196",
+    "license": "CC BY 4.0",
+    "zip_sha256": "fa2ea4cc5227d02473062e3d1ff5ff31a95c247f448a72e455f9a1c2fef1c801"
+  },
+  "plants": [
+    {
+      "id": "zimbelkraut",
+      "name": "Zimbelkraut",
+      "scientific_name": "Cymbalaria muralis",
+      "facts": {
+        "light": 6,
+        "moisture": 4,
+        "nutrients": 5,
+        "height_m": "0.1–0.4",
+        "reproductive_period": "May–September",
+        "csr_percent": [
+          37.3,
+          0.0,
+          62.7
+        ],
+        "root_depth_m": null,
+        "root_radius_m": null,
+        "bud_bank_size": 15.0,
+        "source": "https://pladias.cz/en/taxon/data/Cymbalaria%20muralis",
+        "underplot_source": "https://doi.org/10.25829/idiv.3610-56acy9"
+      },
+      "category_status": "source_derived_categories",
+      "levels": [
+        {
+          "level": 1,
+          "light": 2,
+          "water": 2,
+          "root_space": 1,
+          "shoots": 1,
+          "trait": "Zarter Kriechtrieb",
+          "art": "Young ivy-leaved toadflax with a few rounded lobed leaves, purple-tinged slender stems in a lime-mortar joint; no tendrils."
+        },
+        {
+          "level": 2,
+          "light": 2,
+          "water": 2,
+          "root_space": 2,
+          "shoots": 2,
+          "trait": "Samenkapseln in Mauerspalten",
+          "art": "Established trailing ivy-leaved toadflax with lilac snapdragon-like flowers, yellow palate marks and fruit stalks bending towards a dark crevice; distinguish fruiting stalks from roots."
+        }
+      ],
+      "fungal_game_permission": true,
+      "creeping_routes_game": [
+        1,
+        3
+      ],
+      "ant_seed_game_permission": false
+    },
+    {
+      "id": "mauerraute",
+      "name": "Mauerraute",
+      "scientific_name": "Asplenium ruta-muraria",
+      "facts": {
+        "light": 8,
+        "moisture": 3,
+        "nutrients": 3,
+        "height_m": "0.05–0.2",
+        "reproductive_period": "July–September",
+        "csr_percent": [
+          12.6,
+          54.6,
+          32.8
+        ],
+        "root_depth_m": null,
+        "root_radius_m": null,
+        "bud_bank_size": 10.0,
+        "source": "https://pladias.cz/en/taxon/data/Asplenium%20ruta-muraria",
+        "underplot_source": "https://doi.org/10.25829/idiv.3610-56acy9"
+      },
+      "category_status": "source_derived_categories",
+      "levels": [
+        {
+          "level": 1,
+          "light": 3,
+          "water": 1,
+          "root_space": 1,
+          "shoots": 1,
+          "trait": "Jungfarn im feuchten Spalt",
+          "art": "A small juvenile wall-rue fern with a few triangular fronds and wedge-shaped pinnules in moist lime mortar, with a small moss patch nearby; no flowers or seeds."
+        },
+        {
+          "level": 2,
+          "light": 3,
+          "water": 1,
+          "root_space": 1,
+          "shoots": 2,
+          "trait": "Reife Wedel mit Sporenlagern",
+          "art": "A mature tuft of wall-rue fern with triangular divided fronds, wedge-shaped pinnules and visible elongated brown sori on the underside of one frond; no flowers, seeds, taproot or woody trunk."
+        }
+      ],
+      "fungal_game_permission": true,
+      "creeping_routes_game": [
+        0,
+        0
+      ],
+      "ant_seed_game_permission": false
+    },
+    {
+      "id": "schoellkraut",
+      "name": "Schöllkraut",
+      "scientific_name": "Chelidonium majus",
+      "facts": {
+        "light": 6,
+        "moisture": 5,
+        "nutrients": 8,
+        "height_m": "0.3–0.9",
+        "reproductive_period": "May–September",
+        "csr_percent": [
+          54.7,
+          6.6,
+          38.8
+        ],
+        "root_depth_m": null,
+        "root_radius_m": null,
+        "bud_bank_size": 20.0,
+        "source": "https://pladias.cz/en/taxon/data/Chelidonium%20majus",
+        "underplot_source": "https://doi.org/10.25829/idiv.3610-56acy9"
+      },
+      "category_status": "source_derived_categories",
+      "levels": [
+        {
+          "level": 1,
+          "light": 2,
+          "water": 2,
+          "root_space": 2,
+          "shoots": 1,
+          "trait": "Junger krautiger Trieb",
+          "art": "A young greater celandine with lobed green leaves, paler undersides and fine hairs emerging at a brick-wall base; intact herbaceous stems."
+        },
+        {
+          "level": 2,
+          "light": 2,
+          "water": 2,
+          "root_space": 3,
+          "shoots": 3,
+          "trait": "Reife Samen mit Ameisenbrot",
+          "art": "Established herbaceous greater celandine with four-petalled yellow flowers and slender seed capsules. In a small natural inset show a dark seed with a pale elaiosome carried by an ant; no woody shrub or giant root."
+        }
+      ],
+      "fungal_game_permission": true,
+      "creeping_routes_game": [
+        0,
+        0
+      ],
+      "ant_seed_game_permission": true
+    },
+    {
+      "id": "schaumkraut",
+      "name": "Behaartes Schaumkraut",
+      "scientific_name": "Cardamine hirsuta",
+      "facts": {
+        "light": 6,
+        "moisture": 5,
+        "nutrients": 6,
+        "height_m": "0.1–0.25",
+        "reproductive_period": "April–June",
+        "csr_percent": [
+          22.5,
+          0.0,
+          77.5
+        ],
+        "root_depth_m": 0.37,
+        "root_radius_m": 0.155,
+        "bud_bank_size": 2.5,
+        "source": "https://pladias.cz/en/taxon/data/Cardamine%20hirsuta",
+        "underplot_source": "https://doi.org/10.25829/idiv.3610-56acy9"
+      },
+      "category_status": "source_derived_categories",
+      "levels": [
+        {
+          "level": 1,
+          "light": 2,
+          "water": 2,
+          "root_space": 1,
+          "shoots": 1,
+          "trait": "Kleine Blattrosette",
+          "art": "A young hairy bittercress basal rosette with pinnate leaves, rounded leaflets and a larger terminal leaflet in a fresh paving joint; fine sparse hairs, no mature fruit."
+        },
+        {
+          "level": 2,
+          "light": 2,
+          "water": 2,
+          "root_space": 1,
+          "shoots": 1,
+          "trait": "Reife Schoten schleudern Samen",
+          "art": "A mature small hairy bittercress with tiny four-petalled white flowers and narrow upright siliques, one split silique showing recoiling valves and a few dispersed seeds; keep natural scale."
+        }
+      ],
+      "fungal_game_permission": false,
+      "creeping_routes_game": [
+        0,
+        0
+      ],
+      "ant_seed_game_permission": false
+    },
+    {
+      "id": "breitwegerich",
+      "name": "Breitwegerich",
+      "scientific_name": "Plantago major",
+      "facts": {
+        "light": 7,
+        "moisture": 5,
+        "nutrients": 6,
+        "height_m": "0.1–0.4",
+        "reproductive_period": "June–October",
+        "csr_percent": [
+          82.3,
+          0.0,
+          17.7
+        ],
+        "root_depth_m": 0.496666666666667,
+        "root_radius_m": 0.33,
+        "bud_bank_size": 20.0,
+        "source": "https://pladias.cz/en/taxon/data/Plantago%20major",
+        "underplot_source": "https://doi.org/10.25829/idiv.3610-56acy9"
+      },
+      "category_status": "source_derived_categories",
+      "levels": [
+        {
+          "level": 1,
+          "light": 3,
+          "water": 2,
+          "root_space": 1,
+          "shoots": 1,
+          "trait": "Junge bodennahe Rosette",
+          "art": "A young greater plantain basal rosette with broad oval leaves and conspicuous arching longitudinal veins in a paving joint, no mature flower spikes and no boot crushing the plant."
+        },
+        {
+          "level": 2,
+          "light": 3,
+          "water": 2,
+          "root_space": 2,
+          "shoots": 2,
+          "trait": "Breite Rosette mit Blütenähren",
+          "art": "An established greater plantain rosette with broad oval leaves, arching veins and leafless stalks carrying narrow greenish flower spikes; small fibrous roots only if shown schematically, no invincible rubber leaves."
+        }
+      ],
+      "fungal_game_permission": true,
+      "creeping_routes_game": [
+        0,
+        0
+      ],
+      "ant_seed_game_permission": false
+    },
+    {
+      "id": "portulak",
+      "name": "Sommer-Portulak",
+      "scientific_name": "Portulaca oleracea",
+      "facts": {
+        "light": 8,
+        "moisture": 4,
+        "nutrients": 7,
+        "height_m": "0.05–0.3",
+        "reproductive_period": "June–October",
+        "csr_percent": [
+          0.3,
+          0.0,
+          99.7
+        ],
+        "root_depth_m": 0.25,
+        "root_radius_m": 0.12,
+        "bud_bank_size": 1.2,
+        "source": "https://pladias.cz/en/taxon/data/Portulaca%20oleracea",
+        "underplot_source": "https://doi.org/10.25829/idiv.3610-56acy9"
+      },
+      "category_status": "source_derived_categories",
+      "levels": [
+        {
+          "level": 1,
+          "light": 3,
+          "water": 2,
+          "root_space": 1,
+          "shoots": 1,
+          "trait": "Junge sukkulente Pflanze",
+          "art": "A young common purslane with fleshy smooth obovate leaves and reddish succulent stems at a sunlit pavement crack; no frost and no woody stems."
+        },
+        {
+          "level": 2,
+          "light": 3,
+          "water": 2,
+          "root_space": 1,
+          "shoots": 3,
+          "trait": "Reife Pflanze mit gelben Blüten",
+          "art": "An established low spreading common purslane with fleshy obovate leaves, succulent reddish stems and small five-petalled yellow flowers in sunlight; show living soil contact, no flame effects or guaranteed heat growth."
+        }
+      ],
+      "fungal_game_permission": false,
+      "creeping_routes_game": [
+        0,
+        0
+      ],
+      "ant_seed_game_permission": false
+    },
+    {
+      "id": "rispengras",
+      "name": "Einjähriges Rispengras",
+      "scientific_name": "Poa annua",
+      "facts": {
+        "light": 7,
+        "moisture": 6,
+        "nutrients": 8,
+        "height_m": "0.05–0.25",
+        "reproductive_period": "January–December",
+        "csr_percent": [
+          6.8,
+          35.0,
+          58.2
+        ],
+        "root_depth_m": 0.17,
+        "root_radius_m": 0.11,
+        "bud_bank_size": 4.2,
+        "source": "https://pladias.cz/en/taxon/data/Poa%20annua",
+        "underplot_source": "https://doi.org/10.25829/idiv.3610-56acy9"
+      },
+      "category_status": "source_derived_categories",
+      "levels": [
+        {
+          "level": 1,
+          "light": 3,
+          "water": 2,
+          "root_space": 1,
+          "shoots": 1,
+          "trait": "Junger Grasbüschel",
+          "art": "A young annual meadow grass tuft with soft light-green blades and boat-shaped leaf tips in a fresh paving seam; no mature inflorescences."
+        },
+        {
+          "level": 2,
+          "light": 3,
+          "water": 2,
+          "root_space": 1,
+          "shoots": 2,
+          "trait": "Lockere Rispen mit Ährchen",
+          "art": "An established small annual meadow grass tuft with boat-tipped leaves and open branched panicles of small greenish spikelets in a fresh pavement seam during mild weather; no cereal ears or compulsory snow."
+        }
+      ],
+      "fungal_game_permission": true,
+      "creeping_routes_game": [
+        0,
+        0
+      ],
+      "ant_seed_game_permission": false
+    },
+    {
+      "id": "silbermoos",
+      "name": "Silber-Birnmoos",
+      "scientific_name": "Bryum argenteum",
+      "facts": {
+        "light": null,
+        "moisture": null,
+        "nutrients": null,
+        "height_m": null,
+        "reproductive_period": null,
+        "csr_percent": null,
+        "root_depth_m": null,
+        "root_radius_m": null,
+        "bud_bank_size": null,
+        "source": "https://www.britishbryologicalsociety.org.uk/learning/species-finder/bryum-argenteum/",
+        "underplot_source": null
+      },
+      "category_status": "provisional_game_values_no_verified_indicator_data",
+      "levels": [
+        {
+          "level": 1,
+          "light": "1–3",
+          "water": 1,
+          "root_space": 0,
+          "shoots": 1,
+          "trait": "Junge Mooskolonie",
+          "art": "A small young silver-moss colony in a paving seam, tightly packed short shoots with overlapping leaves and pale hyaline tips; rhizoids rather than true roots, no flowers or seeds."
+        },
+        {
+          "level": 2,
+          "light": "1–3",
+          "water": 1,
+          "root_space": 0,
+          "shoots": 2,
+          "trait": "Dichtes Polster mit Sporenkapseln",
+          "art": "A dense silver-green cushion of silver moss in a wall joint, pale translucent leaf tips and a few reddish setae bearing nodding pear-shaped spore capsules; rhizoids rather than roots, no flowers, seeds, metallic foil or dust transformation."
+        }
+      ],
+      "fungal_game_permission": false,
+      "creeping_routes_game": [
+        0,
+        0
+      ],
+      "ant_seed_game_permission": false
+    }
+  ]
+}

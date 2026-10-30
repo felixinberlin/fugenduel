@@ -1,0 +1,29 @@
+======================================================================
+Silber-Birnmoos (Bryum argenteum) — LEVEL 1
+======================================================================
+
+Create one finished FUGENDUEL botanical game card, portrait 2:3, full card visible with identical dimensions and layout across the series. Use a restrained weathered brick and dark stone frame, warm parchment panels, dark legible type, natural macro photography style and authentic urban plant anatomy.
+Subject: Bryum argenteum. Stage: young vegetative plant or colony. Junge Mooskolonie.
+Render these German labels and values exactly:
+FUGENDUEL
+Silber-Birnmoos
+Bryum argenteum
+LEVEL 1
+Spielwerte: Licht 1–3 | Wasser 1 | Wurzelraum 0 | Triebe 1
+Eigenschaft: Junge Mooskolonie
+Footer: Artwerte, keine Messung dieser Pflanze. Level und Spielwerte sind Spielentwurf. k. A. = keine Angabe.
+
+======================================================================
+Silber-Birnmoos (Bryum argenteum) — LEVEL 2
+======================================================================
+
+Create one finished FUGENDUEL botanical game card, portrait 2:3, full card visible with identical dimensions and layout across the series. Use a restrained weathered brick and dark stone frame, warm parchment panels, dark legible type, natural macro photography style and authentic urban plant anatomy.
+Subject: Bryum argenteum. Stage: established reproductive plant or colony. Dichtes Polster mit Sporenkapseln.
+Render these German labels and values exactly:
+FUGENDUEL
+Silber-Birnmoos
+Bryum argenteum
+LEVEL 2
+Spielwerte: Licht 1–3 | Wasser 1 | Wurzelraum 0 | Triebe 2
+Eigenschaft: Dichtes Polster mit Sporenkapseln
+Footer: Artwerte, keine Messung dieser Pflanze. Level und Spielwerte sind Spielentwurf. k. A. = keine Angabe.

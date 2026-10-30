@@ -1,0 +1,152 @@
+{
+  "id": "silber-birnmoos",
+  "folder": "silber-birnmoos",
+  "name": "Silber-Birnmoos",
+  "scientific_name": "Bryum argenteum",
+  "family": "Bryaceae (Birnmoosgewächse)",
+  "common_names": [
+    "Silber-Birnmoos",
+    "Silbermoos",
+    "Silberfilz",
+    "Wundmoos",
+    "Silver Moss"
+  ],
+  "life_form": "Bryophyt (Poikilohydres Polstermoos)",
+  "life_cycle": "Ausdauernd (Mehrjährig, extrem regenerationsfähig)",
+  "botany": {
+    "indicator_values": {
+      "light": 7,
+      "moisture": 4,
+      "nutrients": 6,
+      "soil_reaction": 7,
+      "salinity": 1
+    },
+    "csr_strategy": {
+      "c_percent": 0.0,
+      "s_percent": 80.0,
+      "r_percent": 20.0,
+      "primary_class": "S (Extremer Stress-Tolerator / Trockenkünstler)"
+    },
+    "morphology": {
+      "height_min_m": 0.005,
+      "height_max_m": 0.02,
+      "growth_form": "Dichte, silbrig schimmernde Polster mit dachziegelartig anliegenden Blättchen",
+      "root_system": "Keine echten Wurzeln! Feine braune Rhizoide zur rein mechanischen Verankerung",
+      "max_root_depth_m": 0.0,
+      "root_radius_m": 0.0,
+      "bud_bank_size": null
+    },
+    "phenology": {
+      "flowering_period": "Sporenkapseln im Herbst bis Frühjahr (Moos bildet Sporen auf rötlichen Kapselstielen, keine Blüten!)",
+      "dispersal_mechanism": "Anemochorie & vegetative Fragmentation: Jeder winzige Polsterfetzen kann durch Wind, Schuhe oder Regen eine neue Kolonie begründen"
+    },
+    "sources": [
+      {
+        "name": "British Bryological Society",
+        "url": "https://www.britishbryologicalsociety.org.uk/learning/species-finder/bryum-argenteum/"
+      },
+      {
+        "name": "BBS Field Guide",
+        "url": "https://www.britishbryologicalsociety.org.uk"
+      }
+    ]
+  },
+  "goodies": {
+    "folk_names": [
+      "Silbermoos",
+      "Silberfilz",
+      "Wundmoos",
+      "Gehweg-Polster"
+    ],
+    "tradition_lore": "Wegen seines silbrigen Glanzes unverwechselbar. Seine farblosen, chlorophyllfreien Blattspitzen reflektieren das grelle Sonnenlicht wie winzige Sonnenspiegel.",
+    "medicinal_uses": {
+      "title": "Antibakterielle Wundwatte",
+      "summary": "Moose wurden seit der Steinzeit und bis in den Ersten Weltkrieg als saugfähiges, steriles Wundpolstermaterial verwendet, da sie das Zehnfache ihres Trockengewichts an Feuchtigkeit aufsaugen und Bakterienwachstum hemmen.",
+      "preparation": "Historisch getrocknet und gereinigt als Wundauflage."
+    },
+    "culinary_uses": {
+      "title": "Nicht essbar",
+      "summary": "Kein Nahrungsmittel für Menschen. Spielt aber eine gigantische Rolle als Wasserspeicher und Ammenpflanze für alle anderen Arten.",
+      "taste": "Erdig, bitter",
+      "edibility": "Ungenießbar"
+    },
+    "active_compounds": [
+      {
+        "name": "Phenolische Säuren",
+        "effect": "Hemmen das Wachstum von Bakterien und Schimmelpilzen."
+      },
+      {
+        "name": "Antimikrobielle Terpene",
+        "effect": "Natürlicher Schutz vor Verwesung und Verrottung."
+      },
+      {
+        "name": "Flavonoide in den Blattspitzen",
+        "effect": "Wirken als UV-Schild gegen extreme Sonnenstrahlung."
+      }
+    ],
+    "game_healing_effect": {
+      "name": "Feuchtverband",
+      "effect": "Versorgt trockene Sämlinge tagelang mit Feuchtigkeit.",
+      "description": "Dient als Ammen-Plättchen, speichert +1 Wasser und senkt Hitzeschaden."
+    },
+    "street_discovery_tip": "Geh an einem sonnigen Tag über Pflastersteine und schau schräg gegen das Licht: Du siehst kleine, silbrig glänzende Samtkissen zwischen den Ziegeln glitzern. Wenn du einen Tropfen Wasser aus deiner Trinkflasche darauf gibst, wird das Silberkissen innerhalb von 30 Sekunden smaragdgrün!"
+  },
+  "game_adaptations": {
+    "board_game": {
+      "level_1": {
+        "level": 1,
+        "stage": "Junge Mooskolonie",
+        "light": "1–3",
+        "water": 1,
+        "root_space": 0,
+        "shoots": 1,
+        "trait": "Junge Mooskolonie",
+        "special_power": "Besenschutz: Durch flachen Wuchs vollkommen immun gegen Straßenbesen"
+      },
+      "level_2": {
+        "level": 2,
+        "stage": "Dichtes Polster mit Sporenkapseln",
+        "light": "1–3",
+        "water": 1,
+        "root_space": 0,
+        "shoots": 2,
+        "trait": "Dichtes Polster mit Sporenkapseln",
+        "special_power": "Ammenfunktion: Spendet +1 Feuchtigkeit für alle Keimlinge im selben Slot"
+      },
+      "network_affinities": {
+        "root_connection": false,
+        "fungal_connection": false,
+        "ant_connection": false,
+        "notes": "Besitzt Rhizoide statt Wurzeln (Wurzelraum 0); fungiert als Oberflächen-Plättchen (Moos-Patch)."
+      }
+    },
+    "card_game": {
+      "stats_0_10": {
+        "wurzel": 3,
+        "tritt": 5,
+        "duerre": 10,
+        "saat": 3,
+        "tempo": 2,
+        "chemie": 4,
+        "total": 27
+      },
+      "signature_skills": [
+        {
+          "name": "Poikilohydrie",
+          "type": "Passiv",
+          "condition": "Dürre",
+          "effect": "Verliert bei 0% Feuchtigkeit keine Lebenskraft; fällt in schadlose Trockenstarre"
+        },
+        {
+          "name": "Ammenbett",
+          "type": "Unterstützung",
+          "condition": "Nachbarkeimung",
+          "effect": "+1 Lebenskraft für jeden neuen Keimling"
+        }
+      ]
+    }
+  },
+  "media": {
+    "images": []
+  }
+}

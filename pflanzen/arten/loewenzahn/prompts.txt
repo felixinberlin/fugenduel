@@ -1,0 +1,29 @@
+======================================================================
+Gewöhnlicher Löwenzahn (Taraxacum officinale) — LEVEL 1
+======================================================================
+
+Create one finished FUGENDUEL botanical game card, portrait 2:3, full card visible with identical dimensions and layout across the series. Use a restrained weathered brick and dark stone frame, warm parchment panels, dark legible type, natural macro photography style and authentic urban plant anatomy.
+Subject: Taraxacum officinale. Stage: young vegetative plant or colony. Pfahlwurzelbohrer.
+Render these German labels and values exactly:
+FUGENDUEL
+Gewöhnlicher Löwenzahn
+Taraxacum officinale
+LEVEL 1
+Spielwerte: Licht 3 | Wasser 2 | Wurzelraum 2 | Triebe 1
+Eigenschaft: Pfahlwurzelbohrer
+Footer: Artwerte, keine Messung dieser Pflanze. Level und Spielwerte sind Spielentwurf. k. A. = keine Angabe.
+
+======================================================================
+Gewöhnlicher Löwenzahn (Taraxacum officinale) — LEVEL 2
+======================================================================
+
+Create one finished FUGENDUEL botanical game card, portrait 2:3, full card visible with identical dimensions and layout across the series. Use a restrained weathered brick and dark stone frame, warm parchment panels, dark legible type, natural macro photography style and authentic urban plant anatomy.
+Subject: Taraxacum officinale. Stage: established reproductive plant or colony. Fallschirmwolke & Samenbank.
+Render these German labels and values exactly:
+FUGENDUEL
+Gewöhnlicher Löwenzahn
+Taraxacum officinale
+LEVEL 2
+Spielwerte: Licht 3 | Wasser 2 | Wurzelraum 3 | Triebe 2
+Eigenschaft: Fallschirmwolke & Samenbank
+Footer: Artwerte, keine Messung dieser Pflanze. Level und Spielwerte sind Spielentwurf. k. A. = keine Angabe.

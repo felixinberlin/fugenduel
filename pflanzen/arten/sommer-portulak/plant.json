@@ -1,0 +1,153 @@
+{
+  "id": "sommer-portulak",
+  "folder": "sommer-portulak",
+  "name": "Sommer-Portulak",
+  "scientific_name": "Portulaca oleracea",
+  "family": "Portulacaceae (Portulakgewächse)",
+  "common_names": [
+    "Sommer-Portulak",
+    "Gemüse-Portulak",
+    "Bürzelkraut",
+    "Kreta-Superfood",
+    "Common Purslane"
+  ],
+  "life_form": "Therophyt (Einjährige sukkulente Wärmepflanze)",
+  "life_cycle": "Einjährig (Spätkeimer, liebt glühende Hitze)",
+  "botany": {
+    "indicator_values": {
+      "light": 8,
+      "moisture": 4,
+      "nutrients": 7,
+      "soil_reaction": 7,
+      "salinity": 1
+    },
+    "csr_strategy": {
+      "c_percent": 0.3,
+      "s_percent": 0.0,
+      "r_percent": 99.7,
+      "primary_class": "R (Extremer Ruderal-Überlebenskünstler / Hitze-Sukkulente)"
+    },
+    "morphology": {
+      "height_min_m": 0.05,
+      "height_max_m": 0.3,
+      "growth_form": "Niederliegend ausgebreitete, fleischig verdickte rötliche Stängel mit spatelförmigen Blättern",
+      "root_system": "Tiefreichende Pfahlwurzel mit verzweigten Saugwurzeln",
+      "max_root_depth_m": 0.25,
+      "root_radius_m": 0.12,
+      "bud_bank_size": 1.2
+    },
+    "phenology": {
+      "flowering_period": "Juni bis Oktober (kleine gelbe Blüten öffnen sich nur an sonnigen Vormittagen)",
+      "dispersal_mechanism": "Autochorie / Endozoochorie: Deckelkapseln ('Pyxidium') öffnen sich wie ein Dosendeckel und streuen hunderte winzige schwarze Glanzsamen aus"
+    },
+    "sources": [
+      {
+        "name": "Pladias Database",
+        "url": "https://pladias.cz/en/taxon/data/Portulaca%20oleracea"
+      },
+      {
+        "name": "UNDERPLOT v39 (IDIV)",
+        "url": "https://doi.org/10.25829/idiv.3610-56acy9"
+      }
+    ]
+  },
+  "goodies": {
+    "folk_names": [
+      "Bürzelkraut",
+      "Saubürzel",
+      "Kreta-Superfood",
+      "Sommergemüse",
+      "Fettkraut"
+    ],
+    "tradition_lore": "Im antiken Ägypten, Griechenland und Rom hochgeschätztes Kulturgemüse. Bestandteil der berühmten Kreta-Diät, die für Herzgesundheit und Langlebigkeit steht.",
+    "medicinal_uses": {
+      "title": "Herz- und Zellschutz der Wüste",
+      "summary": "Kühlt entzündete Haut und Magenschleimhäute, senkt Blutfette und schützt die Zellen vor oxidativem Stress.",
+      "preparation": "Frische fleischige Blätter kauen oder als kühlenden Saft auf leichten Sonnenbrand auftragen."
+    },
+    "culinary_uses": {
+      "title": "Echtes Gourmet-Gemüse",
+      "summary": "Die saftigen, knackigen Blätter schmecken herrlich erfrischend säuerlich, leicht nussig und mild salzig. Perfekt in griechischen Sommersalaten, Gazpacho oder kurz in Olivenöl geschwenkt.",
+      "taste": "Knackig, saftig, erfrischend säuerlich-salzig",
+      "edibility": "Hervorragend essbar (Blätter und Triebe roh oder gedünstet)"
+    },
+    "active_compounds": [
+      {
+        "name": "Omega-3-Fettsäuren (ALA)",
+        "effect": "Höchster Gehalt an Alpha-Linolensäure unter allen bekannten grünen Landpflanzen!"
+      },
+      {
+        "name": "Glutathion & Betalaine",
+        "effect": "Mächtige Antioxidantien für den Zellschutz bei extremer UV-Strahlung."
+      },
+      {
+        "name": "Magnesium & Kalium",
+        "effect": "Wertvolle Elektrolyte, die Wasser im Pflanzengewebe binden."
+      }
+    ],
+    "game_healing_effect": {
+      "name": "Power-Snack",
+      "effect": "Spendet +1 Energie im heißen Hochsommer.",
+      "description": "Erfrischt Mitspieler bei Hitzewellen durch saftige Wasserspeicherung."
+    },
+    "street_discovery_tip": "Such im Juli und August auf glühend heißen Asphaltparkplätzen oder an Süd-Gehsteigen! Wenn alle Gräser gelb und verdorrt sind, leuchtet der Portulak als sattgrüner, praller Fleischteppich direkt auf dem kochenden Pflaster."
+  },
+  "game_adaptations": {
+    "board_game": {
+      "level_1": {
+        "level": 1,
+        "stage": "Junge sukkulente Pflanze",
+        "light": 3,
+        "water": 2,
+        "root_space": 1,
+        "shoots": 1,
+        "trait": "Junge sukkulente Pflanze",
+        "special_power": "Hitzeschild: Immun gegen Austrocknung bei voller Sonne"
+      },
+      "level_2": {
+        "level": 2,
+        "stage": "Reife Pflanze mit gelben Blüten",
+        "light": 3,
+        "water": 2,
+        "root_space": 1,
+        "shoots": 3,
+        "trait": "Reife Pflanze mit gelben Blüten",
+        "special_power": "C4/CAM-Turbo: Schaltet bei über 35 °C auf Wüstenstoffwechsel um und wächst weiter!"
+      },
+      "network_affinities": {
+        "root_connection": true,
+        "fungal_connection": false,
+        "ant_connection": false,
+        "notes": "Extremer Flachwurzler (Wurzelraum 1); bildet keine typische Mykorrhiza auf trockenem Asphalt."
+      }
+    },
+    "card_game": {
+      "stats_0_10": {
+        "wurzel": 4,
+        "tritt": 4,
+        "duerre": 10,
+        "saat": 7,
+        "tempo": 6,
+        "chemie": 4,
+        "total": 35
+      },
+      "signature_skills": [
+        {
+          "name": "C4-Turbo",
+          "type": "Passiv",
+          "condition": "Hitze > 35°C",
+          "effect": "+6 DÜRRE in glühenden Sommerrunden"
+        },
+        {
+          "name": "Fleischblatt-Schild",
+          "type": "Verteidigung",
+          "condition": "Dürre-Welle",
+          "effect": "Halbiert Deckungsverlust durch Hitzestress"
+        }
+      ]
+    }
+  },
+  "media": {
+    "images": []
+  }
+}

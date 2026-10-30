@@ -1,0 +1,163 @@
+{
+  "id": "zimbelkraut",
+  "folder": "zimbelkraut",
+  "name": "Zimbelkraut",
+  "scientific_name": "Cymbalaria muralis",
+  "family": "Plantaginaceae (Wegerichgewächse)",
+  "common_names": [
+    "Zimbelkraut",
+    "Mauer-Zimbelkraut",
+    "Mauerblümchen",
+    "Rittersporn der Armen",
+    "Ivy-Leaved Toadflax"
+  ],
+  "life_form": "Hemicryptophyt / Chamaephyt (Kriechtriebe an der Fugenwand)",
+  "life_cycle": "Ausdauernd (Mehrjährig)",
+  "botany": {
+    "indicator_values": {
+      "light": 6,
+      "moisture": 4,
+      "nutrients": 5,
+      "soil_reaction": 7,
+      "salinity": 0
+    },
+    "csr_strategy": {
+      "c_percent": 37.3,
+      "s_percent": 0.0,
+      "r_percent": 62.7,
+      "primary_class": "R / SR (Ruderal-Kletterer / Mauerfugen-Pionier)"
+    },
+    "morphology": {
+      "height_min_m": 0.1,
+      "height_max_m": 0.4,
+      "growth_form": "Kriechend bis hängend, stielrunde rötliche Triebe mit efeuartig gelappten Blättern",
+      "root_system": "Feine Adventivwurzeln an den Sprossknoten (Mörtelanker)",
+      "max_root_depth_m": null,
+      "root_radius_m": null,
+      "bud_bank_size": 15.0
+    },
+    "phenology": {
+      "flowering_period": "Mai bis September",
+      "dispersal_mechanism": "Autochorie / Aktiver Negativer Phototropismus: Nach der Bestäubung wenden sich Fruchtstiele vom Licht ab und schieben die Samenkapseln aktiv tief in dunkle Fugenritzen!"
+    },
+    "sources": [
+      {
+        "name": "Pladias Database",
+        "url": "https://pladias.cz/en/taxon/data/Cymbalaria%20muralis"
+      },
+      {
+        "name": "UNDERPLOT v39 (IDIV)",
+        "url": "https://doi.org/10.25829/idiv.3610-56acy9"
+      }
+    ]
+  },
+  "goodies": {
+    "folk_names": [
+      "Mauerblümchen",
+      "Rittersporn der Armen",
+      "Zymbelkraut",
+      "Venushaar der Mauern"
+    ],
+    "tradition_lore": "Ursprünglich im Mittelmeerraum auf Kalkfelsen beheimatet, wurde im 16. Jahrhundert mit Marmorstatuen nach Mitteleuropa eingeschleppt und eroberte als 'König der Burgmauern' ganz Europa.",
+    "medicinal_uses": {
+      "title": "Die historische Wundkompresse",
+      "summary": "Früher zur Blutstillung bei Schnittwunden und als lindernde Auflage bei Hämorrhoiden und Hautentzündungen genutzt.",
+      "preparation": "Frische Blätter zerdrücken und als Breiumschlag auf entzündete Hautpartien legen."
+    },
+    "culinary_uses": {
+      "title": "Mauer-Kresse auf dem Pausenbrot",
+      "summary": "Junge Blätter und Blüten haben einen herrlich würzigen, pfeffrig-säuerlichen Geschmack, der stark an Kresse oder Brunnenkresse erinnert. Hervorragend auf Butterbrot, in Salaten oder Kräuterquark.",
+      "taste": "Pfeffrig, säuerlich, würzig wie Gartenkresse",
+      "edibility": "Voll essbar (Blätter und Blüten roh)"
+    },
+    "active_compounds": [
+      {
+        "name": "Vitamin C",
+        "effect": "Hoher Ascorbinsäuregehalt, stärkt die Immunabwehr."
+      },
+      {
+        "name": "Flavonoide & Bitterstoffe",
+        "effect": "Entzündungshemmend und adstringierend."
+      },
+      {
+        "name": "Glykoside",
+        "effect": "Sanfte antimikrobielle Oberflächenwirkung."
+      }
+    ],
+    "game_healing_effect": {
+      "name": "Wundverschluss & Mörtelnaht",
+      "effect": "Verschließt aufgebrochene Fugen gegen Kahlfrost.",
+      "description": "Schützt angeschlossene Nischen vor Frostschäden durch dichten Geflechtsteppich."
+    },
+    "street_discovery_tip": "Such an alten Backstein- oder Sandsteinmauern! Schau dir verblühte Stängel genau an: Während die Blüten der Sonne entgegenstreben, krümmen sich die verblühten Fruchtstiele um 180 Grad zurück und bohren ihre Kapsel wie ein kleiner Bohrer in den finstersten Mauerspalt."
+  },
+  "game_adaptations": {
+    "board_game": {
+      "level_1": {
+        "level": 1,
+        "stage": "Zarter Kriechtrieb",
+        "light": 2,
+        "water": 2,
+        "root_space": 1,
+        "shoots": 1,
+        "trait": "Zarter Kriechtrieb (sucht ersten Mörtelanker)",
+        "special_power": "Legt 1 Kriechtrasse in Nachbarslot"
+      },
+      "level_2": {
+        "level": 2,
+        "stage": "Etabliertes Polster mit Mauerrückzug",
+        "light": 2,
+        "water": 2,
+        "root_space": 2,
+        "shoots": 2,
+        "trait": "Samenkapseln in Mauerspalten",
+        "special_power": "Der Mauer-Rückzug (Kriechtrassen max. 3; negativer Phototropismus schützt Samen vor Vögeln)"
+      },
+      "network_affinities": {
+        "root_connection": true,
+        "fungal_connection": true,
+        "ant_connection": false,
+        "notes": "Hervorragender Trassenbauer: Kann im Spiel bis zu 3 Wurzel-/Kriechverbindungen legen!"
+      }
+    },
+    "card_game": {
+      "stats_0_10": {
+        "wurzel": 4,
+        "tritt": 3,
+        "duerre": 6,
+        "saat": 7,
+        "tempo": 6,
+        "chemie": 4,
+        "total": 30
+      },
+      "signature_skills": [
+        {
+          "name": "Mauer-Rückzug",
+          "type": "Aktiv",
+          "condition": "Vertikale Wand",
+          "effect": "Fruchtstiele schieben Samen direkt in geschützte Risse; immun gegen Straßenkehrer"
+        },
+        {
+          "name": "Kriechspross",
+          "type": "Passiv",
+          "condition": "Kalkfuge",
+          "effect": "Erhöht Ausbreitungsreichweite um +1 Nische"
+        }
+      ]
+    }
+  },
+  "media": {
+    "images": [
+      {
+        "filename": "zimbelkraut-level-1.jpg",
+        "type": "karte_level_1",
+        "title": "Fugenduel Spielkarte Level 1: Zimbelkraut"
+      },
+      {
+        "filename": "zimbelkraut-level-2.jpg",
+        "type": "karte_level_2",
+        "title": "Fugenduel Spielkarte Level 2: Zimbelkraut"
+      }
+    ]
+  }
+}

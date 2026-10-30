@@ -1,0 +1,153 @@
+{
+  "id": "schoellkraut",
+  "folder": "schoellkraut",
+  "name": "Schöllkraut",
+  "scientific_name": "Chelidonium majus",
+  "family": "Papaveraceae (Mohngewächse)",
+  "common_names": [
+    "Schöllkraut",
+    "Warzenkraut",
+    "Augenwurz",
+    "Goldwurz",
+    "Greater Celandine"
+  ],
+  "life_form": "Hemicryptophyt (Kräftige Staude am Mauerfuß)",
+  "life_cycle": "Ausdauernd (Mehrjährig)",
+  "botany": {
+    "indicator_values": {
+      "light": 6,
+      "moisture": 5,
+      "nutrients": 8,
+      "soil_reaction": 7,
+      "salinity": 0
+    },
+    "csr_strategy": {
+      "c_percent": 54.7,
+      "s_percent": 6.6,
+      "r_percent": 38.8,
+      "primary_class": "CR (Competitor-Ruderal / Stickstoff-Gigant)"
+    },
+    "morphology": {
+      "height_min_m": 0.3,
+      "height_max_m": 0.9,
+      "growth_form": "Verzweigte, behaarte Staude mit weichen gefiederten Blättern und leuchtend gelben Blüten",
+      "root_system": "Kräftige Pfahlwurzel mit verzweigtem Wurzelstock; enthält leuchtend orangen Milchsaft",
+      "max_root_depth_m": null,
+      "root_radius_m": null,
+      "bud_bank_size": 20.0
+    },
+    "phenology": {
+      "flowering_period": "Mai bis September",
+      "dispersal_mechanism": "Myrmekochorie (Ameisenausbreitung): Glänzend schwarze Samen tragen ein saftiges, fett- und eiweißreiches Anhängsel (Elaiosom), das Ameisen als Larvenfutter in ihre Nester tragen!"
+    },
+    "sources": [
+      {
+        "name": "Pladias Database",
+        "url": "https://pladias.cz/en/taxon/data/Chelidonium%20majus"
+      },
+      {
+        "name": "UNDERPLOT v39 (IDIV)",
+        "url": "https://doi.org/10.25829/idiv.3610-56acy9"
+      }
+    ]
+  },
+  "goodies": {
+    "folk_names": [
+      "Warzenkraut",
+      "Augenwurz",
+      "Goldwurz",
+      "Schwalbenkraut",
+      "Herrgottsgabe"
+    ],
+    "tradition_lore": "Schon von den alten Griechen beschrieben; der Name Chelidonium leitet sich von 'chelidon' (griechisch für Schwalbe) ab, weil es blüht, wenn die Schwalben kommen, und vergeht, wenn sie ziehen.",
+    "medicinal_uses": {
+      "title": "Der Kiez-Warzen-Killer",
+      "summary": "Der leuchtend orangene Milchsaft ist ein uraltes Hausmittel gegen Warzen. Punktuell aufgetragen lösen die Enzyme und Alkaloide das verhornte Warzengewebe auf.",
+      "preparation": "Einen Stängel abbrechen und den austretenden orangen Saft tropfenweise punktuell auf die Warze tupfen. VORSICHT: Giftig beim Verschlucken, nicht in die Augen reiben!"
+    },
+    "culinary_uses": {
+      "title": "Giftpflanze — Nicht essbar!",
+      "summary": "Vollständig ungenießbar und giftig. Schmeckt extrem bitter und brennend scharf.",
+      "taste": "Bitter, scharf, reizend",
+      "edibility": "Giftig! Reine Heil- und Schutzkraft."
+    },
+    "active_compounds": [
+      {
+        "name": "Chelidonin & Coptisin",
+        "effect": "Isochinolin-Alkaloide mit antiviraler, schmerzlindernder und krampflösender Wirkung."
+      },
+      {
+        "name": "Proteolytische Enzyme",
+        "effect": "Eiweißabbauende Enzyme im Milchsaft, die Warzengewebe zerstören."
+      },
+      {
+        "name": "Flavonoide & Saponine",
+        "effect": "Antioxidativ und pilzhemmend."
+      }
+    ],
+    "game_healing_effect": {
+      "name": "Ätzmilch",
+      "effect": "Vertreibt Schnecken und Schädlinge; neutralisiert feindliche Angriffe.",
+      "description": "Schützt die eigene Nische durch chemische Abwehrstoffe vor Fraßfeinden."
+    },
+    "street_discovery_tip": "Such an schattigen Hauswänden, Mauersockeln oder unter Zäunen, wo Tauben oder Hunde für viel Stickstoff sorgen. Brich vorsichtig ein Blatt ab: Es tritt sofort ein intensiv orangeroter Saft aus, der wie Jod aussieht!"
+  },
+  "game_adaptations": {
+    "board_game": {
+      "level_1": {
+        "level": 1,
+        "stage": "Junger krautiger Trieb",
+        "light": 2,
+        "water": 2,
+        "root_space": 2,
+        "shoots": 1,
+        "trait": "Junger krautiger Trieb",
+        "special_power": "Explosives Wachstum auf Stickstofffeldern (Guano +2)"
+      },
+      "level_2": {
+        "level": 2,
+        "stage": "Reife Samen mit Ameisenbrot",
+        "light": 2,
+        "water": 2,
+        "root_space": 3,
+        "shoots": 3,
+        "trait": "Reife Samen mit Ameisenbrot",
+        "special_power": "Ameisen-Express: Elaiosomen locken Ameisenstraßen an; garantiert Samenfahrt im Herbst"
+      },
+      "network_affinities": {
+        "root_connection": true,
+        "fungal_connection": true,
+        "ant_connection": true,
+        "notes": "Beste Ameisen-Partnerin im Spiel! Bildet kräftige Wurzeln und hohe Nährstoffansprüche (N 8)."
+      }
+    },
+    "card_game": {
+      "stats_0_10": {
+        "wurzel": 5,
+        "tritt": 4,
+        "duerre": 4,
+        "saat": 6,
+        "tempo": 5,
+        "chemie": 9,
+        "total": 33
+      },
+      "signature_skills": [
+        {
+          "name": "Milchröhren",
+          "type": "Aktiv",
+          "condition": "Angriff",
+          "effect": "CHEMIE +2 für eine Runde; senkt gegnerische Chemie"
+        },
+        {
+          "name": "Ameisenpost",
+          "type": "Passiv",
+          "condition": "Herbst",
+          "effect": "Samen mit Elaiosomen werden kostenlos 1 Zone weitergetragen"
+        }
+      ]
+    }
+  },
+  "media": {
+    "images": []
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "id": "einjaehriges-rispengras",
+  "folder": "einjaehriges-rispengras",
+  "name": "Einjähriges Rispengras",
+  "scientific_name": "Poa annua",
+  "family": "Poaceae (Süßgräser)",
+  "common_names": [
+    "Einjähriges Rispengras",
+    "Vogelgras",
+    "Gänsefutter",
+    "Straßengras",
+    "Annual Meadow Grass"
+  ],
+  "life_form": "Therophyt / Hemicryptophyt (Flacher rasenbildender Kosmopolit)",
+  "life_cycle": "Einjährig bis kurzlebig mehrjährig (Ganzjahresblüher)",
+  "botany": {
+    "indicator_values": {
+      "light": 7,
+      "moisture": 6,
+      "nutrients": 8,
+      "soil_reaction": 6,
+      "salinity": 1
+    },
+    "csr_strategy": {
+      "c_percent": 6.8,
+      "s_percent": 35.0,
+      "r_percent": 58.2,
+      "primary_class": "R / SR (Ruderaler Schnellstarter & Tritt-Tolerator)"
+    },
+    "morphology": {
+      "height_min_m": 0.05,
+      "height_max_m": 0.25,
+      "growth_form": "Kleine, hellgrüne Horste mit charakteristisch kahnförmigen Blattspitzen",
+      "root_system": "Dichtes, aber sehr flaches Faserwurzelgeflecht",
+      "max_root_depth_m": 0.17,
+      "root_radius_m": 0.11,
+      "bud_bank_size": 4.2
+    },
+    "phenology": {
+      "flowering_period": "Januar bis Dezember (blüht und fruchtet 12 Monate im Jahr bei Plustemperaturen!)",
+      "dispersal_mechanism": "Anemochorie / Anthropochorie: Unzählige winzige Ährchen reifen in nur 45 Tagen vom Samen zum neuen Samen"
+    },
+    "sources": [
+      {
+        "name": "Pladias Database",
+        "url": "https://pladias.cz/en/taxon/data/Poa%20annua"
+      },
+      {
+        "name": "UNDERPLOT v39 (IDIV)",
+        "url": "https://doi.org/10.25829/idiv.3610-56acy9"
+      }
+    ]
+  },
+  "goodies": {
+    "folk_names": [
+      "Vogelgras",
+      "Gänsefutter",
+      "Pflastergras",
+      "Allerweltsgras"
+    ],
+    "tradition_lore": "Das wohl am weitesten verbreitete Gras der Erde. Es wächst sogar in Forschungsstationen der Antarktis und übersteht selbst ständige Rasenmäher und Tritte.",
+    "medicinal_uses": {
+      "title": "Notverband & Polstermaterial",
+      "summary": "Historisch wurden saubere getrocknete Grasfasern als saugfähiges Polstermaterial für Wundverbände oder in Schuhen gegen Kälte genutzt.",
+      "preparation": "Getrocknete Halme als saugfähiges Füllmaterial."
+    },
+    "culinary_uses": {
+      "title": "Stadtvogel-Futterbar",
+      "summary": "Für Menschen faserig und ungenießbar, aber für Haussperlinge, Tauben, Meisen und Kaninchen die unverzichtbare Grundnahrung in der Betonwüste.",
+      "taste": "Grasig, faserig, süßlich",
+      "edibility": "Nicht giftig, aber für Menschen zu zäh. Perfekt für Tiere!"
+    },
+    "active_compounds": [
+      {
+        "name": "Kieselsäure",
+        "effect": "Macht die Grashalme elastisch und trittfest."
+      },
+      {
+        "name": "Pflanzliche Proteine & Stärke",
+        "effect": "Energiereiche Nahrung für Vögel in den Samen."
+      },
+      {
+        "name": "Zellulose",
+        "effect": "Dichte Faserstruktur für Bodenbindung."
+      }
+    ],
+    "game_healing_effect": {
+      "name": "Vogellocke",
+      "effect": "Lockt Stadtvögel an, die Schädlinge und Raupen fressen.",
+      "description": "Schützt Nachbarpflanzen vor Insektenfraß."
+    },
+    "street_discovery_tip": "Streiche über die Spitze eines Grashalms: Drücke die Blattspitze sanft zusammen – sie sieht aus wie der Bug eines kleinen Kanus oder Ruderboots ('kahnförmige Blattspitze'). Das ist das Erkennungszeichen aller Rispengräser!"
+  },
+  "game_adaptations": {
+    "board_game": {
+      "level_1": {
+        "level": 1,
+        "stage": "Junger Grasbüschel",
+        "light": 3,
+        "water": 2,
+        "root_space": 1,
+        "shoots": 1,
+        "trait": "Junger Grasbüschel",
+        "special_power": "Trittfest: Nimmt keinen Schaden durch Passanten"
+      },
+      "level_2": {
+        "level": 2,
+        "stage": "Lockere Rispen mit Ährchen",
+        "light": 3,
+        "water": 2,
+        "root_space": 1,
+        "shoots": 2,
+        "trait": "Lockere Rispen mit Ährchen",
+        "special_power": "Dauerblüte: Produziert in allen Jahreszeiten kontinuierlich neue Triebe"
+      },
+      "network_affinities": {
+        "root_connection": true,
+        "fungal_connection": true,
+        "ant_connection": false,
+        "notes": "Sehr flacher Wurzelraum (0.17 m); teilt Wasser über Pilzfäden im Sockelbereich."
+      }
+    },
+    "card_game": {
+      "stats_0_10": {
+        "wurzel": 3,
+        "tritt": 6,
+        "duerre": 4,
+        "saat": 8,
+        "tempo": 10,
+        "chemie": 3,
+        "total": 34
+      },
+      "signature_skills": [
+        {
+          "name": "Dauerblüte",
+          "type": "Priorität",
+          "condition": "Gleichstand",
+          "effect": "Gewinnt jeden Initiativ-Gleichstand; blüht 12 Monate im Jahr"
+        },
+        {
+          "name": "Samenregen",
+          "type": "Passiv",
+          "condition": "Rundenende",
+          "effect": "Füllt die eigene Samenbank in jeder Runde mit 1 neuem Samen"
+        }
+      ]
+    }
+  },
+  "media": {
+    "images": []
+  }
+}
